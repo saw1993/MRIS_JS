@@ -36,4 +36,23 @@ const login = (req, res) => {
     });
 };
 
-module.exports = { register, login };
+const getUserProfile = (req, res) => {
+    const token = req.headers.authorization.split(' ')[1]
+    
+    if (!token) return res.status(401).json({ message: 'Access token is missing or invalid' });
+
+    jwt.verify(token, `${process.env.JWT_SECRET_KEY}`, (err, user) => {
+        if (err) return res.status(403).json({ message: 'Token is invalid or expired' });
+
+        User.findByUsername(user.username, (err, results) => {
+            if (err) return res.status(500).json({ message: 'Internal server error' });
+            if (results.length > 0) {
+                return res.status(200).json({ profile: results[0] });
+            } else {
+                return res.status(404).json({ message: 'User not found' });
+            }
+        });
+    });
+};
+
+module.exports = { register, login , getUserProfile };

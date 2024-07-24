@@ -5,14 +5,24 @@ const https = require('https');
 const authRoutes = require('./routes/authRoutes');
 const userRoutes = require('./routes/userRoutes');
 const doctorRoutes = require('./routes/doctorRoutes');
+const cors=require('cors');
 const app = express();
 const port = 3000;
+
+// Configure CORS
+const corsOptions = {
+    origin: 'https://localhost:3001' // Update with your frontend URL
+};
+
+app.use(cors(corsOptions));
 
 app.use(bodyParser.json());
 
 app.use('/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/doctors', doctorRoutes);
+
+
 
 // HTTPS setup
 const privateKey = fs.readFileSync('key.pem', 'utf8');
