@@ -51,5 +51,5 @@ jobs:
         run: |
           ssh -i ~/.ssh/id_rsa bitnami@52.221.131.28 << 'EOF'
             cd ~/htdocs/MRIS/backend
-            pm2 start server.js --name server || pm2 restart server
+            pm2 start app.js --name server || pm2 restart server
           EOF
