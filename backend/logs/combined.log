@@ -737,3 +737,53 @@
 2024-08-03 09:30:07 [32minfo[39m: Accessing create Pharmacy route
 2024-08-03 09:30:07 [31merror[39m: Error creating pharmacy
 2024-08-03 09:30:07 [31merror[39m: Error creating Pharmacy
+2024-08-03 09:36:33 [32minfo[39m: POST /auth/user
+2024-08-03 15:16:36 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:16:44 [32minfo[39m: POST /api/auth/login
+2024-08-03 15:21:01 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:21:05 [32minfo[39m: POST /api/auth/login
+2024-08-03 15:23:32 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:23:39 [32minfo[39m: POST /api/auth/login
+2024-08-03 15:24:15 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:24:17 [32minfo[39m: POST /api/auth/login
+2024-08-03 15:24:48 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:26:14 [32minfo[39m: POST /api/auth/login
+2024-08-03 15:26:37 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:26:48 [32minfo[39m: POST /api/auth/login
+2024-08-03 15:29:50 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:29:56 [32minfo[39m: POST /api/auth/login
+2024-08-03 15:30:48 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:30:53 [32minfo[39m: POST /api/auth/login
+2024-08-03 15:31:13 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 15:31:15 [32minfo[39m: POST /api/auth/login
+2024-08-03 16:36:58 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 16:37:09 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 16:37:09 [32minfo[39m: Request to fetch all specialties
+2024-08-03 16:37:09 [31merror[39m: Error fetching specialties
+2024-08-03 16:37:15 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 16:37:15 [32minfo[39m: Request to fetch all specialties
+2024-08-03 16:37:15 [31merror[39m: Error fetching specialties
+2024-08-03 16:37:16 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 16:37:16 [32minfo[39m: Request to fetch all specialties
+2024-08-03 16:37:16 [31merror[39m: Error fetching specialties
+2024-08-03 16:37:17 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 16:37:17 [32minfo[39m: Request to fetch all specialties
+2024-08-03 16:37:17 [31merror[39m: Error fetching specialties
+2024-08-03 16:37:20 [32minfo[39m: POST /api/auth/login
+2024-08-03 16:43:40 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 16:43:44 [32minfo[39m: POST /api/auth/login
+2024-08-03 16:44:21 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 16:44:24 [32minfo[39m: POST /api/auth/login
+2024-08-03 16:44:24 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 16:46:23 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 16:46:50 [32minfo[39m: POST /api/auth/login
+2024-08-03 16:46:52 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 16:47:35 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 16:47:35 [32minfo[39m: Token verified for user: 8
+2024-08-03 16:47:35 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 16:47:36 [31merror[39m: Error creating pharmacy
+2024-08-03 16:47:36 [31merror[39m: Error creating Pharmacy
+2024-08-03 16:47:45 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 16:47:45 [32minfo[39m: Token verified for user: 8
+2024-08-03 16:47:45 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 16:47:46 [32minfo[39m: Pharmacy created successfully

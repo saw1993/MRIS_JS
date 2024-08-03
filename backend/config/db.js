@@ -9,11 +9,19 @@ const pool2 = mysql.createPool({
   database: DB_NAME
 });
 
-const pool = mysql.createPool({
-  host: "127.0.0.1",
+const podol = mysql.createPool({
+  host: "localhost",
   user: "saw1993",
-  password: "1234",
+  password: '1234',
   database: "mris"
+});
+
+
+const pool = mysql.createPool({
+  host: "23.111.142.162",
+  user: "respicar_supun",
+  password: '0717257984-930531383V',
+  database: "respicar_mris"
 });
 
 module.exports = pool;
