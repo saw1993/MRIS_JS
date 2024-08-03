@@ -1,1 +1,55 @@
+name: Deploy to Lightsail
 
+on:
+  push:
+    branches:
+      - main # Adjust this if you want to trigger on a different branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.LIGHTSAIL_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H 52.221.131.28 >> ~/.ssh/known_hosts
+
+      - name: Debug SSH
+        run: |
+          ls -la ~/.ssh
+          ssh -i ~/.ssh/id_rsa bitnami@52.221.131.28 'echo "SSH Connection Successful"'
+
+      - name: Debug File Paths
+        run: |
+          echo "Current Directory:"
+          pwd
+          echo "Directory Contents:"
+          ls -la
+
+      - name: Deploy Backend to Lightsail
+        run: |
+          # Ensure you are in the correct directory where files are located
+          cd $GITHUB_WORKSPACE
+          # Debug file paths
+          echo "Deploying backend files from $GITHUB_WORKSPACE/backend to ~/htdocs/MRIS/backend"
+          rsync -avz --exclude='.git' --exclude='node_modules' $GITHUB_WORKSPACE/backend/ bitnami@52.221.131.28:~/htdocs/MRIS/backend
+
+      - name: Install Backend Dependencies
+        run: |
+          ssh -i ~/.ssh/id_rsa bitnami@52.221.131.28 << 'EOF'
+            cd ~/htdocs/MRIS/backend
+            sudo npm install
+          EOF
+
+      - name: Start or Restart Backend Service
+        run: |
+          ssh -i ~/.ssh/id_rsa bitnami@52.221.131.28 << 'EOF'
+            cd ~/htdocs/MRIS/backend
+            pm2 start server.js --name server || pm2 restart server
+          EOF
