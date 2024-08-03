@@ -1,0 +1,739 @@
+2024-08-02 07:03:57 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:04:12 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:04:23 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:10:03 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:10:30 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:10:53 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:11:49 [32minfo[39m: POST /api/init/init-user
+2024-08-02 07:11:49 [31merror[39m: Error adding initial user: findUserByEmail is not defined
+2024-08-02 07:13:37 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:13:40 [32minfo[39m: POST /api/init/init-user
+2024-08-02 07:13:40 [31merror[39m: Error adding initial user: No database selected
+2024-08-02 07:15:20 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:15:25 [32minfo[39m: POST /api/init/init-user
+2024-08-02 07:15:25 [31merror[39m: Error adding initial user: No database selected
+2024-08-02 07:28:19 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-02 07:28:25 [32minfo[39m: POST /api/init/init-user
+2024-08-02 07:28:25 [31merror[39m: Error adding initial user: No database selected
+2024-08-02 07:47:32 [32minfo[39m: GET /api/init/init-user
+2024-08-02 07:47:46 [32minfo[39m: POST /api/init/init-user
+2024-08-02 07:47:46 [31merror[39m: Error adding initial user: No database selected
+2024-08-03 04:35:16 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-03 04:37:52 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-03 04:38:17 [32minfo[39m: HTTPS Server running on port 3000
+2024-08-03 04:38:42 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:38:42 [31merror[39m: Error adding initial user: No database selected
+2024-08-03 04:40:02 [32minfo[39m: HTTPS Server running on port '3001',
+2024-08-03 04:40:58 [32minfo[39m: HTTPS Server running on port 3001,
+2024-08-03 04:42:00 [32minfo[39m: HTTPS Server running on port 3000,
+2024-08-03 04:46:10 [32minfo[39m: HTTPS Server running on port 3000,
+2024-08-03 04:46:19 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:46:19 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:47:56 [32minfo[39m: HTTPS Server running on port 3000,
+2024-08-03 04:48:00 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:48:00 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND 127.0.0.1,
+2024-08-03 04:49:38 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:52:01 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:52:05 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:52:05 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:53:16 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:53:16 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:53:17 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:53:17 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:54:01 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:54:05 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:54:05 [32minfo[39m: User: supun@zyntec.lk
+2024-08-03 04:54:05 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:54:58 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:55:04 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:55:04 [32minfo[39m: User: 1234
+2024-08-03 04:55:04 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:56:56 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:57:00 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:57:00 [32minfo[39m: User: 1234
+2024-08-03 04:57:00 [31merror[39m: Error adding initial user: Access denied for user 'saw1993,'@'localhost' (using password: YES)
+2024-08-03 04:57:32 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:57:44 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:57:44 [32minfo[39m: User: 1234
+2024-08-03 04:57:44 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:57:50 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:57:52 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:57:52 [32minfo[39m: User: 1234
+2024-08-03 04:57:52 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND "localhost",
+2024-08-03 04:58:05 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:58:07 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:58:07 [32minfo[39m: User: 1234
+2024-08-03 04:58:08 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND "127.0.0.1",
+2024-08-03 04:58:43 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:58:43 [32minfo[39m: User: 1234
+2024-08-03 04:58:43 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND "127.0.0.1",
+2024-08-03 04:58:47 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 04:58:49 [32minfo[39m: POST /api/init/init-user
+2024-08-03 04:58:49 [32minfo[39m: User: 1234
+2024-08-03 04:58:49 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND '127.0.0.1',
+2024-08-03 05:00:12 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 05:00:16 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:00:16 [32minfo[39m: User: 1234
+2024-08-03 05:00:16 [31merror[39m: Error adding initial user: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1234)
+2024-08-03 05:00:55 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 05:00:59 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:00:59 [32minfo[39m: User: 1234
+2024-08-03 05:00:59 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:02:11 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 05:02:15 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:02:15 [32minfo[39m: User: 1234
+2024-08-03 05:02:15 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:03:29 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 05:03:35 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:03:35 [32minfo[39m: User: 1234
+2024-08-03 05:03:35 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:03:45 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:03:45 [32minfo[39m: User: 1234
+2024-08-03 05:03:46 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:03:47 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:03:47 [32minfo[39m: User: 1234
+2024-08-03 05:03:47 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:05:52 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 05:05:56 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:05:56 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:06:21 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:06:21 [31merror[39m: Missing required fields
+2024-08-03 05:07:47 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 05:08:28 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 05:08:31 [32minfo[39m: POST /api/init/init-user
+2024-08-03 05:08:32 [32minfo[39m: Initial user added: supun@zyntec.lk
+2024-08-03 05:10:22 [32minfo[39m: POST /api/auth/login
+2024-08-03 05:10:22 [33mwarn[39m: Login failed: User with email undefined not found
+2024-08-03 05:10:56 [32minfo[39m: POST /api/auth/login
+2024-08-03 05:10:56 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 06:17:09 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:22:54 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:24:18 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:27:34 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:28:39 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:30:36 [32minfo[39m: POST /api/auth/login
+2024-08-03 06:30:36 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 06:30:48 [32minfo[39m: POST /api/doctors/create
+2024-08-03 06:31:18 [32minfo[39m: POST /api/doctors/create
+2024-08-03 06:32:22 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:32:22 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:32:22 [32minfo[39m: [object Object]
+2024-08-03 06:32:40 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:32:42 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:32:42 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:32:42 [32minfo[39m: undefined
+2024-08-03 06:37:09 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:37:13 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:37:13 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:37:37 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:37:44 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:37:48 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:37:48 [32minfo[39m: Token verified for user: [object Object]
+2024-08-03 06:37:48 [32minfo[39m: undefined
+2024-08-03 06:38:22 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:38:24 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:38:24 [32minfo[39m: Token verified for user: undefined
+2024-08-03 06:38:24 [32minfo[39m: undefined
+2024-08-03 06:39:12 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:39:13 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:39:13 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:39:13 [32minfo[39m: undefined
+2024-08-03 06:39:28 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:39:30 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:39:30 [32minfo[39m: Token verified for user: undefined
+2024-08-03 06:39:30 [32minfo[39m: undefined
+2024-08-03 06:40:53 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:40:57 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:40:57 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:40:57 [32minfo[39m: undefined
+2024-08-03 06:42:31 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:42:36 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:42:36 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:42:36 [32minfo[39m: undefined
+2024-08-03 06:43:50 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:44:56 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:45:00 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:45:00 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:45:00 [32minfo[39m: Request URL:
+2024-08-03 06:45:00 [32minfo[39m: Request Method:
+2024-08-03 06:45:00 [32minfo[39m: Request Headers:
+2024-08-03 06:45:00 [32minfo[39m: Request Body:
+2024-08-03 06:45:00 [32minfo[39m: User ID:
+2024-08-03 06:45:00 [32minfo[39m: User Role:
+2024-08-03 06:45:26 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:45:36 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:45:39 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:45:39 [32minfo[39m: Request URL:
+2024-08-03 06:45:39 [32minfo[39m: Request Method:
+2024-08-03 06:45:39 [32minfo[39m: Request Headers:
+2024-08-03 06:45:39 [32minfo[39m: Request Body:
+2024-08-03 06:45:39 [32minfo[39m: User ID:
+2024-08-03 06:47:35 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:47:37 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:47:37 [32minfo[39m: Request URL:
+2024-08-03 06:47:37 [32minfo[39m: Request Method:
+2024-08-03 06:47:37 [32minfo[39m: Request Headers:
+2024-08-03 06:47:37 [32minfo[39m: Request Body:
+2024-08-03 06:47:37 [32minfo[39m: User ID:
+2024-08-03 06:47:37 [32minfo[39m: User Role:
+2024-08-03 06:47:37 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:48:47 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:48:47 [32minfo[39m: Request URL:
+2024-08-03 06:48:47 [32minfo[39m: Request Method:
+2024-08-03 06:48:47 [32minfo[39m: Request Headers:
+2024-08-03 06:48:47 [32minfo[39m: Request Body:
+2024-08-03 06:48:47 [32minfo[39m: User ID:
+2024-08-03 06:48:47 [32minfo[39m: User Role:
+2024-08-03 06:48:47 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:48:48 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:48:48 [32minfo[39m: Request URL:
+2024-08-03 06:48:48 [32minfo[39m: Request Method:
+2024-08-03 06:48:48 [32minfo[39m: Request Headers:
+2024-08-03 06:48:48 [32minfo[39m: Request Body:
+2024-08-03 06:48:48 [32minfo[39m: User ID:
+2024-08-03 06:48:48 [32minfo[39m: User Role:
+2024-08-03 06:48:48 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:48:50 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:48:50 [32minfo[39m: Request URL:
+2024-08-03 06:48:50 [32minfo[39m: Request Method:
+2024-08-03 06:48:50 [32minfo[39m: Request Headers:
+2024-08-03 06:48:50 [32minfo[39m: Request Body:
+2024-08-03 06:48:50 [32minfo[39m: User ID:
+2024-08-03 06:48:50 [32minfo[39m: User Role:
+2024-08-03 06:48:50 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:48:50 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:48:50 [32minfo[39m: Request URL:
+2024-08-03 06:48:50 [32minfo[39m: Request Method:
+2024-08-03 06:48:50 [32minfo[39m: Request Headers:
+2024-08-03 06:48:50 [32minfo[39m: Request Body:
+2024-08-03 06:48:50 [32minfo[39m: User ID:
+2024-08-03 06:48:50 [32minfo[39m: User Role:
+2024-08-03 06:48:50 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:49:08 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:49:08 [31merror[39m: Invalid token: invalid token
+2024-08-03 06:49:13 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:49:13 [32minfo[39m: Request URL:
+2024-08-03 06:49:13 [32minfo[39m: Request Method:
+2024-08-03 06:49:13 [32minfo[39m: Request Headers:
+2024-08-03 06:49:13 [32minfo[39m: Request Body:
+2024-08-03 06:49:13 [32minfo[39m: User ID:
+2024-08-03 06:49:13 [32minfo[39m: User Role:
+2024-08-03 06:49:13 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:49:18 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:49:50 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:49:52 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:49:52 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:50:58 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:51:04 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:51:04 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:51:21 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:51:21 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:52:08 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:52:08 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:54:34 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:54:38 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:54:38 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:54:38 [32minfo[39m: Accessing createDoctor route
+2024-08-03 06:55:00 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:55:00 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:55:00 [32minfo[39m: Accessing createDoctor route
+2024-08-03 06:55:00 [31merror[39m: Missing required fields
+2024-08-03 06:57:37 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:57:40 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:57:40 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:57:40 [32minfo[39m: Accessing createDoctor route
+2024-08-03 06:59:56 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 06:59:58 [32minfo[39m: POST /api/doctor/create
+2024-08-03 06:59:58 [32minfo[39m: Token verified for user: 8
+2024-08-03 06:59:58 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:00:08 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:00:14 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:00:27 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:00:30 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:00:30 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:00:30 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:00:43 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:00:46 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:00:46 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:00:46 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:00:46 [32minfo[39m: checking speiclaity
+2024-08-03 07:01:18 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:01:20 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:01:20 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:01:20 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:01:20 [32minfo[39m: checking speiclaity
+2024-08-03 07:01:40 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:01:41 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:01:41 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:01:41 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:01:41 [32minfo[39m: checking speiclaity
+2024-08-03 07:02:55 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:03:31 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:03:31 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:03:31 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:03:31 [32minfo[39m: Checking speciality
+2024-08-03 07:03:55 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:03:57 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:03:57 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:03:57 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:03:57 [32minfo[39m: Checking speciality
+2024-08-03 07:05:19 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:05:23 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:05:23 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:05:23 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:05:23 [32minfo[39m: Checking speciality existence
+2024-08-03 07:08:48 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:08:53 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:08:53 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:08:53 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:08:53 [32minfo[39m: Checking speciality existence
+2024-08-03 07:09:10 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:09:13 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:09:13 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:09:13 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:09:13 [32minfo[39m: Checking speciality existence
+2024-08-03 07:09:54 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:11:11 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:11:17 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:11:17 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:11:17 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:11:17 [32minfo[39m: Checking speciality existence
+2024-08-03 07:13:56 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:13:58 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:13:58 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:13:58 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:13:58 [32minfo[39m: Checking speciality existence
+2024-08-03 07:14:23 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:32:18 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:32:27 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:32:27 [31merror[39m: Invalid token: jwt expired
+2024-08-03 07:32:33 [32minfo[39m: POST /api/auth/login
+2024-08-03 07:32:34 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 07:32:46 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:32:46 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:32:46 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:32:46 [32minfo[39m: Checking speciality existence
+2024-08-03 07:34:17 [32minfo[39m: POST /api/init/init-user
+2024-08-03 07:34:17 [31merror[39m: User already exists
+2024-08-03 07:34:38 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:34:38 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:34:38 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:34:38 [32minfo[39m: Checking speciality existence
+2024-08-03 07:35:54 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:36:13 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:36:26 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:40:45 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:40:52 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:41:17 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:41:33 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:43:58 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:44:58 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:46:56 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:47:15 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:47:48 [32minfo[39m: POST /api/misc/towns
+2024-08-03 07:47:48 [32minfo[39m: Request to add new town
+2024-08-03 07:47:48 [31merror[39m: Missing required fields for town
+2024-08-03 07:48:26 [32minfo[39m: GET /api/misc/towns
+2024-08-03 07:48:26 [32minfo[39m: Request to fetch all towns
+2024-08-03 07:48:26 [32minfo[39m: Fetching all towns
+2024-08-03 07:51:14 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:51:52 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:52:02 [32minfo[39m: GET /api/misc/towns
+2024-08-03 07:52:02 [32minfo[39m: Request to fetch all towns
+2024-08-03 07:52:02 [32minfo[39m: Fetching all towns
+2024-08-03 07:52:20 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 07:52:20 [32minfo[39m: Request to fetch all specialties
+2024-08-03 07:52:20 [32minfo[39m: Fetching all specialties
+2024-08-03 07:54:51 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:56:10 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:56:21 [32minfo[39m: POST /api/doctors/create
+2024-08-03 07:56:38 [32minfo[39m: POST /api/doctors/create
+2024-08-03 07:56:39 [32minfo[39m: POST /api/doctors/create
+2024-08-03 07:57:02 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:57:02 [31merror[39m: Invalid token: invalid signature
+2024-08-03 07:57:08 [32minfo[39m: POST /api/auth/login
+2024-08-03 07:57:08 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 07:57:19 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:57:19 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:57:19 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:57:19 [32minfo[39m: Checking speciality existence
+2024-08-03 07:57:19 [32minfo[39m: Query executed
+2024-08-03 07:57:19 [31merror[39m: Error creating doctor
+2024-08-03 07:57:19 [31merror[39m: Error creating doctor
+2024-08-03 07:57:47 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:57:47 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:57:47 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:57:47 [32minfo[39m: Checking speciality existence
+2024-08-03 07:57:47 [32minfo[39m: Query executed
+2024-08-03 07:57:47 [31merror[39m: Error creating doctor
+2024-08-03 07:57:47 [31merror[39m: Error creating doctor
+2024-08-03 07:57:49 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:57:49 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:57:49 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:57:49 [32minfo[39m: Checking speciality existence
+2024-08-03 07:57:49 [32minfo[39m: Query executed
+2024-08-03 07:57:49 [31merror[39m: Error creating doctor
+2024-08-03 07:57:49 [31merror[39m: Error creating doctor
+2024-08-03 07:58:46 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:58:48 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:58:48 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:58:48 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:58:48 [32minfo[39m: Checking speciality existence
+2024-08-03 07:58:48 [32minfo[39m: Query executed
+2024-08-03 07:58:48 [31merror[39m: Error creating doctor
+2024-08-03 07:58:48 [31merror[39m: Error creating doctor
+2024-08-03 07:59:06 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 07:59:07 [32minfo[39m: POST /api/doctor/create
+2024-08-03 07:59:07 [32minfo[39m: Token verified for user: 8
+2024-08-03 07:59:07 [32minfo[39m: Accessing createDoctor route
+2024-08-03 07:59:07 [32minfo[39m: Checking speciality existence
+2024-08-03 07:59:07 [32minfo[39m: Query executed
+2024-08-03 07:59:07 [31merror[39m: Error creating doctor
+2024-08-03 07:59:07 [31merror[39m: Error creating doctor
+2024-08-03 08:01:43 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:01:47 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:01:47 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:01:47 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:01:47 [32minfo[39m: Checking speciality existence
+2024-08-03 08:01:47 [32minfo[39m: Query executed
+2024-08-03 08:01:47 [32minfo[39m: Checking town existence
+2024-08-03 08:01:47 [32minfo[39m: Query executed
+2024-08-03 08:01:47 [32minfo[39m: Creating doctor
+2024-08-03 08:01:47 [32minfo[39m: Checking speciality existence
+2024-08-03 08:01:47 [32minfo[39m: Query executed
+2024-08-03 08:01:47 [32minfo[39m: Checking category existence
+2024-08-03 08:01:47 [31merror[39m: Error querying category
+2024-08-03 08:01:47 [31merror[39m: Error creating doctor
+2024-08-03 08:02:29 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:02:32 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:02:32 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:02:32 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:02:32 [32minfo[39m: Checking speciality existence
+2024-08-03 08:02:32 [32minfo[39m: Query executed
+2024-08-03 08:02:32 [32minfo[39m: Checking town existence
+2024-08-03 08:02:32 [32minfo[39m: Query executed
+2024-08-03 08:02:32 [32minfo[39m: Creating doctor
+2024-08-03 08:02:32 [32minfo[39m: Checking speciality existence
+2024-08-03 08:02:32 [32minfo[39m: Query executed
+2024-08-03 08:02:32 [32minfo[39m: Checking category existence
+2024-08-03 08:02:32 [32minfo[39m: Query executed
+2024-08-03 08:02:32 [33mwarn[39m: Category does not exist
+2024-08-03 08:02:32 [31merror[39m: Error creating doctor
+2024-08-03 08:04:48 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:04:58 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:04:58 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:04:58 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:04:58 [32minfo[39m: Checking speciality existence
+2024-08-03 08:04:58 [32minfo[39m: Query executed
+2024-08-03 08:04:58 [32minfo[39m: Checking town existence
+2024-08-03 08:04:58 [32minfo[39m: Query executed
+2024-08-03 08:04:58 [32minfo[39m: Creating doctor
+2024-08-03 08:04:58 [32minfo[39m: Checking speciality existence
+2024-08-03 08:04:58 [32minfo[39m: Query executed
+2024-08-03 08:04:58 [32minfo[39m: Checking category existence
+2024-08-03 08:04:58 [32minfo[39m: Query executed
+2024-08-03 08:04:58 [33mwarn[39m: Category does not exist
+2024-08-03 08:04:58 [31merror[39m: Error creating doctor
+2024-08-03 08:06:08 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:06:11 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:06:11 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:06:11 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:06:11 [32minfo[39m: Checking speciality existence
+2024-08-03 08:06:11 [32minfo[39m: Query executed
+2024-08-03 08:06:11 [32minfo[39m: Checking town existence
+2024-08-03 08:06:11 [32minfo[39m: Query executed
+2024-08-03 08:06:11 [32minfo[39m: Creating doctor
+2024-08-03 08:06:11 [32minfo[39m: Checking category existence
+2024-08-03 08:06:11 [32minfo[39m: Query executed
+2024-08-03 08:06:11 [33mwarn[39m: Category does not exist
+2024-08-03 08:06:11 [31merror[39m: Error creating doctor
+2024-08-03 08:07:26 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:07:29 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:07:29 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:07:29 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:07:29 [32minfo[39m: Checking speciality existence
+2024-08-03 08:07:29 [32minfo[39m: Query executed
+2024-08-03 08:07:29 [32minfo[39m: Checking town existence
+2024-08-03 08:07:29 [32minfo[39m: Query executed
+2024-08-03 08:07:29 [32minfo[39m: Checking category existence
+2024-08-03 08:07:29 [32minfo[39m: Query executed
+2024-08-03 08:07:29 [32minfo[39m: Creating doctor
+2024-08-03 08:07:29 [32minfo[39m: Checking category existence
+2024-08-03 08:07:29 [32minfo[39m: Query executed
+2024-08-03 08:07:29 [33mwarn[39m: Category does not exist
+2024-08-03 08:07:29 [31merror[39m: Error creating doctor
+2024-08-03 08:07:43 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:07:46 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:07:46 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:07:46 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:07:46 [32minfo[39m: Checking speciality existence
+2024-08-03 08:07:46 [32minfo[39m: Query executed
+2024-08-03 08:07:46 [32minfo[39m: Checking town existence
+2024-08-03 08:07:46 [32minfo[39m: Query executed
+2024-08-03 08:07:46 [32minfo[39m: Checking category existence
+2024-08-03 08:07:46 [32minfo[39m: Query executed
+2024-08-03 08:07:46 [32minfo[39m: Creating doctor
+2024-08-03 08:07:46 [31merror[39m: Error creating doctor
+2024-08-03 08:07:46 [31merror[39m: Error creating doctor
+2024-08-03 08:08:51 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:08:55 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:08:55 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:08:55 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:08:55 [32minfo[39m: Creating doctor
+2024-08-03 08:08:55 [31merror[39m: Error creating doctor
+2024-08-03 08:08:55 [31merror[39m: Error creating doctor
+2024-08-03 08:09:13 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:09:16 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:09:16 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:09:16 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:09:16 [32minfo[39m: Creating doctor
+2024-08-03 08:09:16 [32minfo[39m: Checking speciality existence
+2024-08-03 08:09:16 [32minfo[39m: Query executed
+2024-08-03 08:09:16 [32minfo[39m: Checking category existence
+2024-08-03 08:09:16 [32minfo[39m: Query executed
+2024-08-03 08:09:16 [33mwarn[39m: Category does not exist
+2024-08-03 08:09:16 [31merror[39m: Error creating doctor
+2024-08-03 08:11:03 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:11:05 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:11:05 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:11:05 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:11:05 [32minfo[39m: Creating doctor
+2024-08-03 08:11:06 [32minfo[39m: Speciality passed
+2024-08-03 08:11:06 [32minfo[39m: Category passed
+2024-08-03 08:11:06 [33mwarn[39m: Category does not exist
+2024-08-03 08:11:06 [31merror[39m: Error creating doctor
+2024-08-03 08:13:05 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:14:31 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:14:34 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:14:34 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:14:34 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:14:34 [32minfo[39m: Creating doctor
+2024-08-03 08:14:34 [33mwarn[39m: Category does not exist
+2024-08-03 08:14:34 [31merror[39m: Error creating doctor
+2024-08-03 08:15:33 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:15:33 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:15:33 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:15:33 [32minfo[39m: Creating doctor
+2024-08-03 08:15:33 [32minfo[39m: Doctor created successfully
+2024-08-03 08:15:33 [32minfo[39m: Doctor created successfully
+2024-08-03 08:15:43 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:15:43 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:15:43 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:15:43 [32minfo[39m: Creating doctor
+2024-08-03 08:15:43 [33mwarn[39m: Category does not exist
+2024-08-03 08:15:43 [31merror[39m: Error creating doctor
+2024-08-03 08:15:49 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:15:49 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:15:49 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:15:49 [32minfo[39m: Creating doctor
+2024-08-03 08:15:49 [33mwarn[39m: Speciality does not exist
+2024-08-03 08:15:49 [31merror[39m: Error creating doctor
+2024-08-03 08:16:13 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:16:13 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:16:13 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:16:13 [32minfo[39m: Creating doctor
+2024-08-03 08:16:13 [33mwarn[39m: Speciality does not exist
+2024-08-03 08:16:13 [31merror[39m: Error creating doctor
+2024-08-03 08:16:18 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:16:18 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:16:18 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:16:18 [32minfo[39m: Creating doctor
+2024-08-03 08:16:18 [31merror[39m: Error creating doctor
+2024-08-03 08:16:18 [31merror[39m: Error creating doctor
+2024-08-03 08:16:24 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:16:24 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:16:24 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:16:24 [32minfo[39m: Creating doctor
+2024-08-03 08:16:24 [32minfo[39m: Doctor created successfully
+2024-08-03 08:16:24 [32minfo[39m: Doctor created successfully
+2024-08-03 08:16:47 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:16:47 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:16:47 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:16:47 [31merror[39m: Missing required fields
+2024-08-03 08:17:28 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:17:28 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:17:28 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:17:28 [31merror[39m: Missing required fields
+2024-08-03 08:18:10 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:18:12 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:18:12 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:18:12 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:18:12 [32minfo[39m: Creating doctor
+2024-08-03 08:18:12 [32minfo[39m: Doctor created successfully
+2024-08-03 08:18:12 [32minfo[39m: Doctor created successfully
+2024-08-03 08:18:23 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:18:23 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:18:23 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:18:23 [32minfo[39m: Creating doctor
+2024-08-03 08:18:23 [32minfo[39m: Doctor created successfully
+2024-08-03 08:18:23 [32minfo[39m: Doctor created successfully
+2024-08-03 08:19:21 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:19:21 [31merror[39m: Invalid token: invalid signature
+2024-08-03 08:19:27 [32minfo[39m: POST /api/auth/login
+2024-08-03 08:19:27 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 08:19:38 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:19:38 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:19:38 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:19:38 [32minfo[39m: Creating doctor
+2024-08-03 08:19:38 [33mwarn[39m: Category does not exist
+2024-08-03 08:19:38 [31merror[39m: Error creating doctor
+2024-08-03 08:19:58 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:19:58 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:19:58 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:19:58 [32minfo[39m: Creating doctor
+2024-08-03 08:19:58 [31merror[39m: Error creating doctor
+2024-08-03 08:19:58 [31merror[39m: Error creating doctor
+2024-08-03 08:20:03 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:20:03 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:20:03 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:20:03 [32minfo[39m: Creating doctor
+2024-08-03 08:20:03 [32minfo[39m: Doctor created successfully
+2024-08-03 08:20:03 [32minfo[39m: Doctor created successfully
+2024-08-03 08:20:11 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:20:11 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:20:11 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:20:11 [32minfo[39m: Creating doctor
+2024-08-03 08:20:11 [32minfo[39m: Doctor created successfully
+2024-08-03 08:20:11 [32minfo[39m: Doctor created successfully
+2024-08-03 08:22:12 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:22:12 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:22:12 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:22:12 [32minfo[39m: Creating doctor
+2024-08-03 08:22:12 [31merror[39m: Error creating doctor
+2024-08-03 08:22:12 [31merror[39m: Error creating doctor
+2024-08-03 08:22:17 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:22:17 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:22:17 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:22:17 [32minfo[39m: Creating doctor
+2024-08-03 08:22:17 [31merror[39m: Error creating doctor
+2024-08-03 08:22:17 [31merror[39m: Error creating doctor
+2024-08-03 08:22:22 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:22:22 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:22:22 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:22:22 [32minfo[39m: Creating doctor
+2024-08-03 08:22:22 [32minfo[39m: Doctor created successfully
+2024-08-03 08:22:22 [32minfo[39m: Doctor created successfully
+2024-08-03 08:24:32 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:24:46 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:25:05 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:26:16 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:28:12 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:29:14 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:29:38 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:46:25 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:46:31 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:47:45 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:47:46 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:47:55 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:47:58 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:54:24 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:54:31 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:54:44 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:54:49 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:55:30 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:55:34 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:55:40 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:55:40 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:55:40 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:55:56 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:56:16 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:56:18 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:56:18 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:56:18 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:56:18 [32minfo[39m: Creating doctor
+2024-08-03 08:56:18 [31merror[39m: Error creating doctor
+2024-08-03 08:56:18 [31merror[39m: Error creating doctor
+2024-08-03 08:56:25 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:56:25 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:56:25 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:56:25 [32minfo[39m: Creating doctor
+2024-08-03 08:56:25 [31merror[39m: Error creating doctor
+2024-08-03 08:56:25 [31merror[39m: Error creating doctor
+2024-08-03 08:56:29 [32minfo[39m: POST /api/doctor/create
+2024-08-03 08:56:29 [32minfo[39m: Token verified for user: 8
+2024-08-03 08:56:29 [32minfo[39m: Accessing createDoctor route
+2024-08-03 08:56:29 [32minfo[39m: Creating doctor
+2024-08-03 08:56:29 [32minfo[39m: Doctor created successfully
+2024-08-03 08:56:29 [32minfo[39m: Doctor created successfully
+2024-08-03 08:56:51 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:57:06 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:57:36 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:57:37 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 08:59:43 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:06:44 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:07:47 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:08:48 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:08:55 [32minfo[39m: POST /api/doctor/add
+2024-08-03 09:08:55 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:08:55 [32minfo[39m: Accessing createDoctor route
+2024-08-03 09:08:55 [32minfo[39m: Creating doctor
+2024-08-03 09:08:55 [31merror[39m: Error creating doctor
+2024-08-03 09:08:55 [31merror[39m: Error creating doctor
+2024-08-03 09:14:07 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:14:24 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:14:29 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:14:29 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:14:29 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:16:58 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:17:02 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:17:02 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:17:02 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:19:34 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:19:44 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:19:49 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:19:49 [31merror[39m: Invalid token: jwt expired
+2024-08-03 09:19:54 [32minfo[39m: POST /api/auth/login
+2024-08-03 09:19:54 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 09:20:04 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:20:04 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:20:04 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:20:04 [33mwarn[39m: Category does not exist
+2024-08-03 09:22:02 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:22:07 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:22:07 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:22:07 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:22:07 [33mwarn[39m: Category does not exist
+2024-08-03 09:23:33 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:23:47 [32minfo[39m: POST /api/doctor/create
+2024-08-03 09:24:11 [32minfo[39m: POST /api/doctor/add
+2024-08-03 09:24:11 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:24:11 [32minfo[39m: Accessing createDoctor route
+2024-08-03 09:24:11 [33mwarn[39m: Category does not exist
+2024-08-03 09:25:53 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:25:56 [32minfo[39m: POST /api/doctor/add
+2024-08-03 09:25:56 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:25:56 [32minfo[39m: Accessing createDoctor route
+2024-08-03 09:25:56 [33mwarn[39m: Category does not exist
+2024-08-03 09:26:38 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 09:26:41 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:26:41 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:26:41 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:26:41 [33mwarn[39m: Category does not exist
+2024-08-03 09:28:34 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:28:34 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:28:34 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:28:34 [31merror[39m: Error creating pharmacy
+2024-08-03 09:28:34 [31merror[39m: Error creating Pharmacy
+2024-08-03 09:29:45 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:29:45 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:29:45 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:29:45 [32minfo[39m: Pharmacy created successfully
+2024-08-03 09:29:53 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:29:53 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:29:53 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:29:53 [31merror[39m: Error creating pharmacy
+2024-08-03 09:29:53 [31merror[39m: Error creating Pharmacy
+2024-08-03 09:29:59 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:29:59 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:29:59 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:29:59 [31merror[39m: Error creating pharmacy
+2024-08-03 09:29:59 [31merror[39m: Error creating Pharmacy
+2024-08-03 09:30:04 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:30:04 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:30:04 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:30:04 [32minfo[39m: Pharmacy created successfully
+2024-08-03 09:30:07 [32minfo[39m: POST /api/pharmacy/add
+2024-08-03 09:30:07 [32minfo[39m: Token verified for user: 8
+2024-08-03 09:30:07 [32minfo[39m: Accessing create Pharmacy route
+2024-08-03 09:30:07 [31merror[39m: Error creating pharmacy
+2024-08-03 09:30:07 [31merror[39m: Error creating Pharmacy

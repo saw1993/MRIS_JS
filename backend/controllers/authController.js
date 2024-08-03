@@ -1,58 +1,25 @@
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-const User = require('../models/userModel');
+const bcrypt = require('bcrypt');
+const { findUserByEmail } = require('../models/userModel');
+const { generateToken } = require('../utils/jwtUtils');
+const logger = require('../config/logger');
 
-require('dotenv').config();
+const login = async (req, res) => {
+  const { email, password } = req.body;
+  const user = await findUserByEmail(email);
+  if (!user) {
+    logger.warn(`Login failed: User with email ${email} not found`);
+    return res.status(400).send('Email or password is wrong');
+  }
 
-const register = (req, res) => {
-    const { username, email, password, role_id } = req.body;
-    const hashedPassword = bcrypt.hashSync(password, 10);
-    User.create({ username, email, password: hashedPassword, role_id }, (err) => {
-        if (err) {
-            res.send('Error Occured');
-        } else{
-              res.send('User registered');
-        }
-      
-    });
+  const validPass = await bcrypt.compare(password, user.password);
+  if (!validPass) {
+    logger.warn(`Login failed: Incorrect password for email ${email}`);
+    return res.status(400).send('Invalid password');
+  }
+
+  const token = generateToken(user);
+  logger.info(`User logged in: ${email}`);
+  res.header('auth-token', token).send(token);
 };
 
-const login = (req, res) => {
-    const { username, password } = req.body;
-    User.findByUsername(username, (err, results) => {
-        if (err) throw err;
-        if (results.length > 0) {
-            const user = results[0];
-            const validPassword = bcrypt.compareSync(password, user.password);
-            if (validPassword) {
-                const accessToken = jwt.sign({ username: user.email,role_name: user.role_name }, `${process.env.JWT_SECRET_KEY}`, { expiresIn: '1h' });
-                res.json({ accessToken });
-            } else {
-                res.send('Username or password incorrect');
-            }
-        } else {
-            res.send('Username or password incorrect');
-        }
-    });
-};
-
-const getUserProfile = (req, res) => {
-    const token = req.headers.authorization.split(' ')[1]
-    
-    if (!token) return res.status(401).json({ message: 'Access token is missing or invalid' });
-
-    jwt.verify(token, `${process.env.JWT_SECRET_KEY}`, (err, user) => {
-        if (err) return res.status(403).json({ message: 'Token is invalid or expired' });
-
-        User.findByUsername(user.username, (err, results) => {
-            if (err) return res.status(500).json({ message: 'Internal server error' });
-            if (results.length > 0) {
-                return res.status(200).json({ profile: results[0] });
-            } else {
-                return res.status(404).json({ message: 'User not found' });
-            }
-        });
-    });
-};
-
-module.exports = { register, login , getUserProfile };
+module.exports = { login };

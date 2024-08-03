@@ -1,0 +1,86 @@
+2024-08-02 07:11:49 [31merror[39m: Error adding initial user: findUserByEmail is not defined
+2024-08-02 07:13:40 [31merror[39m: Error adding initial user: No database selected
+2024-08-02 07:15:25 [31merror[39m: Error adding initial user: No database selected
+2024-08-02 07:28:25 [31merror[39m: Error adding initial user: No database selected
+2024-08-02 07:47:46 [31merror[39m: Error adding initial user: No database selected
+2024-08-03 04:38:42 [31merror[39m: Error adding initial user: No database selected
+2024-08-03 04:46:19 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:48:00 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND 127.0.0.1,
+2024-08-03 04:52:05 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:53:16 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:53:17 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:54:05 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:55:04 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:57:00 [31merror[39m: Error adding initial user: Access denied for user 'saw1993,'@'localhost' (using password: YES)
+2024-08-03 04:57:44 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND localhost,
+2024-08-03 04:57:52 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND "localhost",
+2024-08-03 04:58:08 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND "127.0.0.1",
+2024-08-03 04:58:43 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND "127.0.0.1",
+2024-08-03 04:58:49 [31merror[39m: Error adding initial user: getaddrinfo ENOTFOUND '127.0.0.1',
+2024-08-03 05:00:16 [31merror[39m: Error adding initial user: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (1234)
+2024-08-03 05:00:59 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:02:15 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:03:35 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:03:46 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:03:47 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:05:56 [31merror[39m: Error adding initial user: Field 'username' doesn't have a default value
+2024-08-03 05:06:21 [31merror[39m: Missing required fields
+2024-08-03 06:49:08 [31merror[39m: Invalid token: invalid token
+2024-08-03 06:55:00 [31merror[39m: Missing required fields
+2024-08-03 07:32:27 [31merror[39m: Invalid token: jwt expired
+2024-08-03 07:34:17 [31merror[39m: User already exists
+2024-08-03 07:47:48 [31merror[39m: Missing required fields for town
+2024-08-03 07:57:02 [31merror[39m: Invalid token: invalid signature
+2024-08-03 07:57:19 [31merror[39m: Error creating doctor
+2024-08-03 07:57:19 [31merror[39m: Error creating doctor
+2024-08-03 07:57:47 [31merror[39m: Error creating doctor
+2024-08-03 07:57:47 [31merror[39m: Error creating doctor
+2024-08-03 07:57:49 [31merror[39m: Error creating doctor
+2024-08-03 07:57:49 [31merror[39m: Error creating doctor
+2024-08-03 07:58:48 [31merror[39m: Error creating doctor
+2024-08-03 07:58:48 [31merror[39m: Error creating doctor
+2024-08-03 07:59:07 [31merror[39m: Error creating doctor
+2024-08-03 07:59:07 [31merror[39m: Error creating doctor
+2024-08-03 08:01:47 [31merror[39m: Error querying category
+2024-08-03 08:01:47 [31merror[39m: Error creating doctor
+2024-08-03 08:02:32 [31merror[39m: Error creating doctor
+2024-08-03 08:04:58 [31merror[39m: Error creating doctor
+2024-08-03 08:06:11 [31merror[39m: Error creating doctor
+2024-08-03 08:07:29 [31merror[39m: Error creating doctor
+2024-08-03 08:07:46 [31merror[39m: Error creating doctor
+2024-08-03 08:07:46 [31merror[39m: Error creating doctor
+2024-08-03 08:08:55 [31merror[39m: Error creating doctor
+2024-08-03 08:08:55 [31merror[39m: Error creating doctor
+2024-08-03 08:09:16 [31merror[39m: Error creating doctor
+2024-08-03 08:11:06 [31merror[39m: Error creating doctor
+2024-08-03 08:14:34 [31merror[39m: Error creating doctor
+2024-08-03 08:15:43 [31merror[39m: Error creating doctor
+2024-08-03 08:15:49 [31merror[39m: Error creating doctor
+2024-08-03 08:16:13 [31merror[39m: Error creating doctor
+2024-08-03 08:16:18 [31merror[39m: Error creating doctor
+2024-08-03 08:16:18 [31merror[39m: Error creating doctor
+2024-08-03 08:16:47 [31merror[39m: Missing required fields
+2024-08-03 08:17:28 [31merror[39m: Missing required fields
+2024-08-03 08:19:21 [31merror[39m: Invalid token: invalid signature
+2024-08-03 08:19:38 [31merror[39m: Error creating doctor
+2024-08-03 08:19:58 [31merror[39m: Error creating doctor
+2024-08-03 08:19:58 [31merror[39m: Error creating doctor
+2024-08-03 08:22:12 [31merror[39m: Error creating doctor
+2024-08-03 08:22:12 [31merror[39m: Error creating doctor
+2024-08-03 08:22:17 [31merror[39m: Error creating doctor
+2024-08-03 08:22:17 [31merror[39m: Error creating doctor
+2024-08-03 08:56:18 [31merror[39m: Error creating doctor
+2024-08-03 08:56:18 [31merror[39m: Error creating doctor
+2024-08-03 08:56:25 [31merror[39m: Error creating doctor
+2024-08-03 08:56:25 [31merror[39m: Error creating doctor
+2024-08-03 09:08:55 [31merror[39m: Error creating doctor
+2024-08-03 09:08:55 [31merror[39m: Error creating doctor
+2024-08-03 09:19:49 [31merror[39m: Invalid token: jwt expired
+2024-08-03 09:28:34 [31merror[39m: Error creating pharmacy
+2024-08-03 09:28:34 [31merror[39m: Error creating Pharmacy
+2024-08-03 09:29:53 [31merror[39m: Error creating pharmacy
+2024-08-03 09:29:53 [31merror[39m: Error creating Pharmacy
+2024-08-03 09:29:59 [31merror[39m: Error creating pharmacy
+2024-08-03 09:29:59 [31merror[39m: Error creating Pharmacy
+2024-08-03 09:30:07 [31merror[39m: Error creating pharmacy
+2024-08-03 09:30:07 [31merror[39m: Error creating Pharmacy
