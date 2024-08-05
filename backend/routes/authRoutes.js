@@ -1,7 +1,10 @@
 const express = require('express');
-const { login } = require('../controllers/authController');
+const { login ,verify } = require('../controllers/authController');
+const authenticateJWT = require('../middlewares/authMiddleware');
+const authorizeRole = require('../middlewares/roleMiddleware');
 const router = express.Router();
 
 router.post('/login', login);
+router.post('/verify',authenticateJWT,authorizeRole('admin'),verify);
 
 module.exports = router;

@@ -787,3 +787,160 @@
 2024-08-03 16:47:45 [32minfo[39m: Token verified for user: 8
 2024-08-03 16:47:45 [32minfo[39m: Accessing create Pharmacy route
 2024-08-03 16:47:46 [32minfo[39m: Pharmacy created successfully
+2024-08-03 17:16:30 [32minfo[39m: POST /api/auth/login
+2024-08-03 17:19:50 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:20:02 [32minfo[39m: POST /api/auth/login
+2024-08-03 17:20:03 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 17:23:09 [32minfo[39m: POST /api/doctor/create
+2024-08-03 17:30:57 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:31:20 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:32:31 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:33:26 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:36:27 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:38:13 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:38:37 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 17:38:37 [32minfo[39m: Request to fetch all specialties
+2024-08-03 17:38:37 [32minfo[39m: Fetching all specialties
+2024-08-03 17:38:37 [31merror[39m: Error fetching specialties
+2024-08-03 17:38:37 [31merror[39m: Error fetching specialties
+2024-08-03 17:39:44 [32minfo[39m: POST /api/doctor/create
+2024-08-03 17:39:50 [32minfo[39m: POST /api/doctor/create
+2024-08-03 17:40:29 [32minfo[39m: POST /api/auth/login
+2024-08-03 17:40:30 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 17:40:52 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 17:40:52 [32minfo[39m: Request to fetch all specialties
+2024-08-03 17:40:52 [32minfo[39m: Fetching all specialties
+2024-08-03 17:40:52 [31merror[39m: Error fetching specialties
+2024-08-03 17:40:52 [31merror[39m: Error fetching specialties
+2024-08-03 17:40:56 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 17:40:56 [32minfo[39m: Request to fetch all specialties
+2024-08-03 17:40:56 [32minfo[39m: Fetching all specialties
+2024-08-03 17:40:56 [31merror[39m: Error fetching specialties
+2024-08-03 17:40:56 [31merror[39m: Error fetching specialties
+2024-08-03 17:40:57 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 17:40:57 [32minfo[39m: Request to fetch all specialties
+2024-08-03 17:40:57 [32minfo[39m: Fetching all specialties
+2024-08-03 17:40:57 [31merror[39m: Error fetching specialties
+2024-08-03 17:40:57 [31merror[39m: Error fetching specialties
+2024-08-03 17:40:58 [32minfo[39m: GET /api/misc/specialities
+2024-08-03 17:40:58 [32minfo[39m: Request to fetch all specialties
+2024-08-03 17:40:58 [32minfo[39m: Fetching all specialties
+2024-08-03 17:40:58 [31merror[39m: Error fetching specialties
+2024-08-03 17:40:58 [31merror[39m: Error fetching specialties
+2024-08-03 17:42:55 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:42:55 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:42:55 [32minfo[39m: Fetching all towns
+2024-08-03 17:42:55 [31merror[39m: Error fetching towns
+2024-08-03 17:42:55 [31merror[39m: Error fetching towns
+2024-08-03 17:42:56 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:42:56 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:42:56 [32minfo[39m: Fetching all towns
+2024-08-03 17:42:56 [31merror[39m: Error fetching towns
+2024-08-03 17:42:56 [31merror[39m: Error fetching towns
+2024-08-03 17:42:57 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:42:57 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:42:57 [32minfo[39m: Fetching all towns
+2024-08-03 17:42:57 [31merror[39m: Error fetching towns
+2024-08-03 17:42:57 [31merror[39m: Error fetching towns
+2024-08-03 17:42:58 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:42:58 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:42:58 [32minfo[39m: Fetching all towns
+2024-08-03 17:42:58 [31merror[39m: Error fetching towns
+2024-08-03 17:42:58 [31merror[39m: Error fetching towns
+2024-08-03 17:42:58 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:42:58 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:42:58 [32minfo[39m: Fetching all towns
+2024-08-03 17:42:58 [31merror[39m: Error fetching towns
+2024-08-03 17:42:58 [31merror[39m: Error fetching towns
+2024-08-03 17:43:01 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:43:01 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:43:01 [32minfo[39m: Fetching all towns
+2024-08-03 17:43:01 [31merror[39m: Error fetching towns
+2024-08-03 17:43:01 [31merror[39m: Error fetching towns
+2024-08-03 17:43:02 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:43:02 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:43:02 [32minfo[39m: Fetching all towns
+2024-08-03 17:43:02 [31merror[39m: Error fetching towns
+2024-08-03 17:43:02 [31merror[39m: Error fetching towns
+2024-08-03 17:43:03 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:43:03 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:43:03 [32minfo[39m: Fetching all towns
+2024-08-03 17:43:03 [31merror[39m: Error fetching towns
+2024-08-03 17:43:03 [31merror[39m: Error fetching towns
+2024-08-03 17:43:56 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:44:09 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:09 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:09 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:09 [31merror[39m: Error fetching towns
+2024-08-03 17:44:09 [31merror[39m: Error fetching towns
+2024-08-03 17:44:10 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:10 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:10 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:10 [31merror[39m: Error fetching towns
+2024-08-03 17:44:10 [31merror[39m: Error fetching towns
+2024-08-03 17:44:14 [32minfo[39m: POST /api/auth/login
+2024-08-03 17:44:14 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-08-03 17:44:25 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:25 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:25 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:25 [31merror[39m: Error fetching towns
+2024-08-03 17:44:25 [31merror[39m: Error fetching towns
+2024-08-03 17:44:26 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:26 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:26 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:26 [31merror[39m: Error fetching towns
+2024-08-03 17:44:26 [31merror[39m: Error fetching towns
+2024-08-03 17:44:27 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:27 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:27 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:27 [31merror[39m: Error fetching towns
+2024-08-03 17:44:27 [31merror[39m: Error fetching towns
+2024-08-03 17:44:27 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:27 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:27 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:27 [31merror[39m: Error fetching towns
+2024-08-03 17:44:27 [31merror[39m: Error fetching towns
+2024-08-03 17:44:27 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:27 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:27 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:27 [31merror[39m: Error fetching towns
+2024-08-03 17:44:27 [31merror[39m: Error fetching towns
+2024-08-03 17:44:28 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:28 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:28 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:28 [31merror[39m: Error fetching towns
+2024-08-03 17:44:28 [31merror[39m: Error fetching towns
+2024-08-03 17:44:29 [32minfo[39m: GET /api/misc/towns
+2024-08-03 17:44:29 [32minfo[39m: Request to fetch all towns
+2024-08-03 17:44:29 [32minfo[39m: Fetching all towns
+2024-08-03 17:44:29 [31merror[39m: Error fetching towns
+2024-08-03 17:44:29 [31merror[39m: Error fetching towns
+2024-08-03 17:44:35 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:44:35 [31merror[39m: User already exists
+2024-08-03 17:44:36 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:44:36 [31merror[39m: User already exists
+2024-08-03 17:44:36 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:44:36 [31merror[39m: User already exists
+2024-08-03 17:44:37 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:44:37 [31merror[39m: User already exists
+2024-08-03 17:44:38 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:44:38 [31merror[39m: User already exists
+2024-08-03 17:44:38 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:44:38 [31merror[39m: User already exists
+2024-08-03 17:44:46 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:44:46 [31merror[39m: Error adding initial user: Duplicate entry 'Supun Ayehsmantha' for key 'username'
+2024-08-03 17:45:01 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:45:01 [32minfo[39m: Initial user added: info@zyntec.lk
+2024-08-03 17:45:17 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-03 17:45:35 [32minfo[39m: POST /api/auth/login
+2024-08-03 17:45:37 [33mwarn[39m: Login failed: User with email info@zyntec.lk not found
+2024-08-03 17:45:43 [32minfo[39m: POST /api/auth/login
+2024-08-03 17:45:43 [33mwarn[39m: Login failed: User with email info@zyntec.lk not found
+2024-08-03 17:45:50 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:45:51 [31merror[39m: User already exists
+2024-08-03 17:46:01 [32minfo[39m: POST /api/init/init-user
+2024-08-03 17:46:02 [32minfo[39m: Initial user added: info@zyntec.lk
+2024-08-03 17:46:06 [32minfo[39m: POST /api/auth/login
+2024-08-03 17:46:06 [32minfo[39m: User logged in: info@zyntec.lk
+2024-08-05 08:13:59 [32minfo[39m: HTTPS Server running on port 3003,
+2024-08-05 08:14:54 [32minfo[39m: HTTPS Server running on port 3003,

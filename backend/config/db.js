@@ -9,7 +9,7 @@ const pool2 = mysql.createPool({
   database: DB_NAME
 });
 
-const podol = mysql.createPool({
+const poodl = mysql.createPool({
   host: "localhost",
   user: "saw1993",
   password: '1234',

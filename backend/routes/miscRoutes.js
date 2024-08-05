@@ -1,17 +1,18 @@
 const express = require('express');
 const router = express.Router();
-const MiscController = require('../controllers/miscController');
+const TownController = require('../controllers/town_controller');
+const specialityController = require('../controllers/specialityController');
 
 // Route to add a new town
-router.post('/towns', MiscController.addTown);
+router.post('/towns', TownController.addTown);
 
 // Route to add a new speciality
-router.post('/specialities', MiscController.addSpeciality);
+router.post('/specialities', specialityController.addSpeciality);
 
 // Route to get all towns
-router.get('/towns', MiscController.getAllTowns);
+router.get('/towns', TownController.getAllTowns);
 
 // Route to get all specialities
-router.get('/specialities', MiscController.getAllSpecialities);
+router.get('/specialities', specialityController.getAllSpecialities);
 
 module.exports = router;
