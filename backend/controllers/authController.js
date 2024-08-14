@@ -23,7 +23,7 @@ const login = async (req, res) => {
   const tokenResponse = {
     token: token,
   };
-  res.header('auth-token', token).send(tokenResponse);
+  res.header('auth-token', token).send(token);
 };
 
 const verify = async (req, res) => {
