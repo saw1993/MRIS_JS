@@ -8,13 +8,21 @@ const login = async (req, res) => {
   const user = await findUserByEmail(email);
   if (!user) {
     logger.warn(`Login failed: User with email ${email} not found`);
-    return res.status(400).send('Email or password is wrong');
+    const tokenResponse = {
+      token: "",
+      status:"User Not Found"
+    };
+    return res.status(400).send(tokenResponse);
   }
 
   const validPass = await bcrypt.compare(password, user.password);
   if (!validPass) {
     logger.warn(`Login failed: Incorrect password for email ${email}`);
-    return res.status(400).send('Invalid password');
+    const tokenResponse = {
+      token: "",
+      status:"Invalid Password"
+    };
+    return res.status(400).send(tokenResponse);
   }
 
   const token = generateToken(user);
@@ -22,6 +30,7 @@ const login = async (req, res) => {
   //res.header('auth-token', token).json({ token });
   const tokenResponse = {
     token: token,
+    status:"Success"
   };
   res.header('auth-token', token).send(tokenResponse);
 };
