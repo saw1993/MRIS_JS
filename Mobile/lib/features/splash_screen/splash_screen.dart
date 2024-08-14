@@ -23,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
-        child: Text('Your App Logo or Loading Text'),
+        child: Text('Loading Zyntec MRIS'),
       ),
     );
   }
