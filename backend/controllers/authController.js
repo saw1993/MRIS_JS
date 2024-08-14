@@ -19,7 +19,11 @@ const login = async (req, res) => {
 
   const token = generateToken(user);
   logger.info(`User logged in: ${email}`);
-  res.header('auth-token', token).json({ token });
+  //res.header('auth-token', token).json({ token });
+  const tokenResponse = {
+    token: token,
+  };
+  res.header('auth-token', token).send(tokenResponse);
 };
 
 const verify = async (req, res) => {
@@ -42,6 +46,7 @@ const verify = async (req, res) => {
   } else {
     res.status(404).send('User data not found');
   }
+
 
 
   } catch (err) {
