@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class AdminHomeScreen extends StatelessWidget {
+class UserHomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Admin Dashboard'),
+        title: Text('User Dashboardsr'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

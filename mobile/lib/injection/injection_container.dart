@@ -1,5 +1,6 @@
 import 'package:get_it/get_it.dart';
 import 'package:dio/dio.dart';
+import 'package:mobile/config/routes/navigate_services.dart';
 import 'package:mobile/features/doctorlist/data/repository/doctor_repository_imp.dart';
 import 'package:mobile/features/doctorlist/domain/repository/doctor_repository.dart';
 import 'package:mobile/features/doctorlist/domain/usecases/get_doctor.dart';
@@ -17,6 +18,9 @@ Future<void> initializeDependancies() async {
   // Dio
   sl.registerSingleton<Dio>(Dio());
 
+  //navigation services
+  sl.registerSingleton<NavigationService>(NavigationService());
+
   //Doctor Api
   sl.registerSingleton<DoctorApiService>(DoctorApiService(sl()));
   sl.registerSingleton<AuthApiService>(AuthApiService(sl()));
@@ -30,9 +34,11 @@ Future<void> initializeDependancies() async {
   sl.registerSingleton<LoginUseCase>(LoginUseCase(sl()));
 
   // Register ViewModel
-  sl.registerFactory<LoginViewModel>(
-    () => LoginViewModel(loginUseCase: sl()),
-  );
+  sl.registerFactory(() => LoginViewModel(
+        loginUseCase: sl<LoginUseCase>(),
+        navigationService:
+            sl<NavigationService>(), // Provide the navigationService here
+      ));
 
   //Bloc
   sl.registerFactory<RemoteDoctorBloc>(() => RemoteDoctorBloc(sl()));

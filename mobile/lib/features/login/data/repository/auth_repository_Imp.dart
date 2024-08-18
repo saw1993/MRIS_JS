@@ -1,5 +1,5 @@
-import 'dart:io';
 import 'dart:developer';
+import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:mobile/core/resources/data_state.dart';
 import 'package:mobile/features/login/domain/entities/Token.dart';
@@ -18,6 +18,7 @@ class AuthRepositoryImp implements AuthRepository {
           await _authApiService.login({'email': email, 'password': password});
 
       if (httpResponse.response.statusCode == HttpStatus.ok) {
+        log("This is passed");
         return DataSuccess(httpResponse.data);
       } else {
         return DataFailed(DioException(
@@ -27,7 +28,6 @@ class AuthRepositoryImp implements AuthRepository {
             requestOptions: httpResponse.response.requestOptions));
       }
     } on DioException catch (e) {
-      log("error Occured $e");
       return DataFailed(e);
     }
   }

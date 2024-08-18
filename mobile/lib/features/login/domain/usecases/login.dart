@@ -7,7 +7,7 @@ class LoginUseCase {
 
   LoginUseCase(this._authRepository);
 
-  Future<DataState<UserToken>> execute(String email, String password) async {
+  Future<DataState<UserToken>> login(String email, String password) async {
     return await _authRepository.login(email, password);
   }
 }

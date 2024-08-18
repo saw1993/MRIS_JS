@@ -1,5 +1,7 @@
 const bcrypt = require('bcrypt');
-const { findUserByEmail } = require('../models/userModel');
+const jwt = require('jsonwebtoken'); 
+const { JWT_SECRET } = process.env;
+const { findUserByEmail, findUserByID } = require('../models/userModel');
 const { generateToken } = require('../utils/jwtUtils');
 const logger = require('../config/logger');
 
@@ -39,7 +41,12 @@ const verify = async (req, res) => {
   const token = req.header('Authorization')?.split(' ')[1];
   if (!token) {
     logger.warn('No token provided');
-    return res.status(401).send('Access denied');
+    const tokenResponse = {
+      user: "",
+      status:"Failed",
+      message:"No token Provided"
+    };
+    return res.status(401).send(tokenResponse);
   }
 
   try {
@@ -47,20 +54,36 @@ const verify = async (req, res) => {
     req.user = verified;
     logger.info(`Token verified for user: ${verified.userId}`);
 
-  if (verified) {
-    res.status(200).json({
-      message: 'User data retrieved successfully',
-      user: verified,
-    });
+    const results = await findUserByID(verified.userId);
+
+  if (results.user_id>0) {
+      const tokenResponse = {
+      user: results,
+      status:"Success",
+      message:"User retrieved"
+    };
+    return res.status(200).send(tokenResponse);
+  
   } else {
-    res.status(404).send('User data not found');
+    const tokenResponse = {
+      user: results,
+      status:"Failed",
+      message:"User Not Found"
+    };
+    return res.status(401).send(tokenResponse);
   }
 
 
 
   } catch (err) {
     logger.error(`Invalid token: ${err.message}`);
-    res.status(400).send('Invalid token');
+    const tokenResponse = {
+      user: "",
+      status:"Failed",
+      message:"Invaild token Provided"
+    };
+    return res.status(401).send(tokenResponse);
+  
   }
 };
 

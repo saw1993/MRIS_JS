@@ -12,6 +12,7 @@ class _DoctorApiService implements DoctorApiService {
   _DoctorApiService(
     this._dio, {
     this.baseUrl,
+    this.errorLogger,
   }) {
     baseUrl ??= 'https://52.221.131.28:3003';
   }
@@ -20,6 +21,8 @@ class _DoctorApiService implements DoctorApiService {
 
   String? baseUrl;
 
+  final ParseErrorLogger? errorLogger;
+
   @override
   Future<HttpResponse<List<DoctorModel>>> getDoctors(String bearerToken) async {
     final _extra = <String, dynamic>{};
@@ -27,26 +30,32 @@ class _DoctorApiService implements DoctorApiService {
     final _headers = <String, dynamic>{r'Authorization': bearerToken};
     _headers.removeWhere((k, v) => v == null);
     const Map<String, dynamic>? _data = null;
-    final _result = await _dio.fetch<List<dynamic>>(
-        _setStreamType<HttpResponse<List<DoctorModel>>>(Options(
+    final _options = _setStreamType<HttpResponse<List<DoctorModel>>>(Options(
       method: 'GET',
       headers: _headers,
       extra: _extra,
     )
-            .compose(
-              _dio.options,
-              '/api/doctor/getall',
-              queryParameters: queryParameters,
-              data: _data,
-            )
-            .copyWith(
-                baseUrl: _combineBaseUrls(
-              _dio.options.baseUrl,
-              baseUrl,
-            ))));
-    var _value = _result.data!
-        .map((dynamic i) => DoctorModel.fromJson(i as Map<String, dynamic>))
-        .toList();
+        .compose(
+          _dio.options,
+          '/api/doctor/getall',
+          queryParameters: queryParameters,
+          data: _data,
+        )
+        .copyWith(
+            baseUrl: _combineBaseUrls(
+          _dio.options.baseUrl,
+          baseUrl,
+        )));
+    final _result = await _dio.fetch<List<dynamic>>(_options);
+    late List<DoctorModel> _value;
+    try {
+      _value = _result.data!
+          .map((dynamic i) => DoctorModel.fromJson(i as Map<String, dynamic>))
+          .toList();
+    } on Object catch (e, s) {
+      errorLogger?.logError(e, s, _options);
+      rethrow;
+    }
     final httpResponse = HttpResponse(_value, _result);
     return httpResponse;
   }

@@ -3,4 +3,5 @@ import 'package:mobile/core/resources/data_state.dart';
 
 abstract class AuthRepository {
   Future<DataState<UserToken>> login(String email, String password);
+  Future<DataState<User>> login(String email, String password);
 }

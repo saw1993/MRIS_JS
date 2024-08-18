@@ -5,6 +5,11 @@ const findUserByEmail = async (email) => {
   return rows[0];
 };
 
+const findUserByID = async (id) => {
+  const [rows] = await pool.query('SELECT * FROM users WHERE user_id = ?', [id]);
+  return rows[0];
+};
+
 const createUser = async (user) => {
   const {username, email, password, role_id } = user;
   const [result] = await pool.query(
@@ -30,5 +35,6 @@ module.exports = {
   findUserByEmail,
   createUser,
   updateUser,
-  deleteUser
+  deleteUser,
+  findUserByID
 };

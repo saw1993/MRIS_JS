@@ -4,7 +4,6 @@ import 'package:dio/dio.dart';
 import 'package:mobile/core/constants/constants.dart';
 import 'package:mobile/core/resources/data_state.dart';
 import 'package:mobile/features/doctorlist/data/models/doctor.dart';
-import 'package:mobile/features/doctorlist/domain/entities/doctorentity.dart';
 import 'package:mobile/features/doctorlist/domain/repository/doctor_repository.dart';
 import 'package:mobile/service/doctor_api_service.dart';
 

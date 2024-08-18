@@ -142,3 +142,11 @@
 2024-08-03 17:44:38 [31merror[39m: User already exists
 2024-08-03 17:44:46 [31merror[39m: Error adding initial user: Duplicate entry 'Supun Ayehsmantha' for key 'username'
 2024-08-03 17:45:51 [31merror[39m: User already exists
+2024-08-18 10:05:14 [31merror[39m: Invalid token: jwt is not defined
+2024-08-18 10:05:39 [31merror[39m: Invalid token: jwt is not defined
+2024-08-18 10:06:38 [31merror[39m: Invalid token: jwt is not defined
+2024-08-18 10:06:51 [31merror[39m: Invalid token: jwt is not defined
+2024-08-18 10:08:19 [31merror[39m: Invalid token: jwt is not defined
+2024-08-18 10:09:44 [31merror[39m: Invalid token: jwt is not defined
+2024-08-18 10:10:25 [31merror[39m: Invalid token: jwt is not defined
+2024-08-18 10:12:15 [31merror[39m: Invalid token: JWT_SECRET is not defined
