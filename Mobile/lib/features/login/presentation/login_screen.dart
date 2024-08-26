@@ -3,14 +3,33 @@ import 'package:mobile/features/login/presentation/viewModel/login_view_model.da
 import 'package:provider/provider.dart';
 import 'package:get_it/get_it.dart';
 
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends StatefulWidget {
+  @override
+  _LoginScreenState createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+
+  LoginViewModel? viewModel;
+
+  @override
+  void initState() {
+    super.initState();
+    viewModel = GetIt.instance<LoginViewModel>();
+
+    // Calling the verify method before rendering the login screen
+    viewModel?.verify().then((_) {
+      // Handle post verification actions if needed
+      setState(() {}); // Update the UI if needed after verification
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (_) => GetIt.instance<LoginViewModel>(),
+      create: (_) => viewModel!,
       child: Scaffold(
         body: Center(
           child: Padding(

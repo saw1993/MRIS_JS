@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
-import 'package:mobile/features/doctorlist/domain/entities/doctorentity.dart';
+import 'package:mobile/core/domain/entities/doctor/doctor_entity.dart';
 
 abstract class RemoteDoctorState extends Equatable {
   final List<Doctor>? doctors;
