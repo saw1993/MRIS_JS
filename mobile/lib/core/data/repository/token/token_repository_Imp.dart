@@ -14,7 +14,7 @@ class TokenRepositoryImpl implements TokenRepository {
   @override
   Future<String?> getToken() async {
     final token = await secureStorage.read(key: 'auth_token');
-    final finalToken = "Bearer " + token!;
+    final finalToken = "Bearer ${token!}";
     return finalToken;
   }
 

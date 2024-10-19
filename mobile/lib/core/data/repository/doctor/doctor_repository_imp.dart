@@ -1,8 +1,4 @@
-import 'dart:developer';
-import 'dart:io';
 
-import 'package:dio/dio.dart';
-import 'package:mobile/core/constants/constants.dart';
 import 'package:mobile/core/data/data_sources/local/doctor/doctor_dao.dart';
 import 'package:mobile/core/domain/repository/token/token_repositroy.dart';
 import 'package:mobile/core/resources/data_state.dart';

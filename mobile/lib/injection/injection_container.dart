@@ -45,7 +45,7 @@ Future<void> initializeDependencies() async {
   sl.registerSingleton<Dio>(Dio());
 
   // FlutterSecureStorage
-  sl.registerLazySingleton(() => FlutterSecureStorage());
+  sl.registerLazySingleton(() => const FlutterSecureStorage());
 
   // NavigationService
   sl.registerLazySingleton(() => NavigationService());
@@ -75,7 +75,7 @@ Future<void> initializeDependencies() async {
       () => PharmacyRepositoryImpl(sl()));
 
   sl.registerLazySingleton(() =>
-      DoctorUseCases(getDoctors: GetDoctors(), syncDoctors: SyncDoctors(sl())));
+      DoctorUseCases(getDoctors: const GetDoctors(), syncDoctors: SyncDoctors(sl())));
 
   // Register Use Cases
   sl.registerLazySingleton(() => GetDoctorsUseCase(sl()));

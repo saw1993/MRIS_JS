@@ -1,8 +1,8 @@
-const jwt = require('jsonwebtoken');
-const { JWT_SECRET } = process.env;
+const { verifyToken } = require('../utils/jwtUtils');
 const logger = require('../config/logger');
 
-const authenticateToken = (req, res, next) => {
+
+const authMiddleware = (req, res, next) => {
   const token = req.header('Authorization')?.split(' ')[1];
   if (!token) {
     logger.warn('No token provided');
@@ -10,9 +10,9 @@ const authenticateToken = (req, res, next) => {
   }
 
   try {
-    const verified = jwt.verify(token, JWT_SECRET);
-    req.user = verified;
-    logger.info(`Token verified for user: ${verified.userId}`);
+    const decoded = verifyToken(token);
+    req.userId = decoded.id;  // Attach user ID to request
+    logger.info(`Token request verified for authMiddleware: ${decoded.toString}`);
     next();
   } catch (err) {
     logger.error(`Invalid token: ${err.message}`);
@@ -20,4 +20,4 @@ const authenticateToken = (req, res, next) => {
   }
 };
 
-module.exports = authenticateToken;
+module.exports = authMiddleware;

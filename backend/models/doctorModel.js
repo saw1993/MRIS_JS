@@ -1,7 +1,15 @@
 const pool = require('../config/db');
 const logger = require('../config/logger');
+const { createAgencyDBConnection } = require('../config/db');
 
 const Doctor = {
+
+    getDoctorsByAgency:async(agencyDetails)=> {
+        const connection = await createAgencyDBConnection(agencyDetails);
+        const [rows] = await connection.execute('SELECT * FROM doctors');
+        connection.end();
+        return rows;
+    },
     
     // Get all doctors
     getAll: async () => {

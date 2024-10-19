@@ -1,9 +1,5 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:mobile/core/domain/usecases/doctor/doctor_usecases.dart';
-import 'package:mobile/core/resources/data_state.dart';
-import 'package:mobile/features/doctorlist/data/models/doctor_model.dart';
 
 class Doctor {
   final String name;
@@ -18,7 +14,7 @@ class DoctorListViewModel extends ChangeNotifier {
 
   DoctorListViewModel({required this.doctorUseCases});
 
-  List<Doctor> _doctors = [
+  final List<Doctor> _doctors = [
     Doctor(name: "Dr. Smith", specialty: "Cardiology"),
     Doctor(name: "Dr. Jane", specialty: "Neurology"),
     // Add more doctors here
@@ -32,11 +28,7 @@ class DoctorListViewModel extends ChangeNotifier {
       notifyListeners();
 
       // Fetch doctors using the use case
-      final dataState = await doctorUseCases.getDoctors;
-      for (var doctor in dataState.) {
-        log(doctor
-            .toString()); // Adjust this to print specific fields if needed
-      }
+      final dataState = doctorUseCases.getDoctors;
     } catch (e) {
       // Handle unexpected errors
       print('Unexpected error fetching doctors: $e');

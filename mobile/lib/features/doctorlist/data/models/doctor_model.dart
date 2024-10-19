@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:floor/floor.dart';
 import 'package:mobile/core/constants/tables.dart';

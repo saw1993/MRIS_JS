@@ -1,9 +1,6 @@
 import 'dart:async';
 
 import 'package:floor/floor.dart';
-import 'package:floor/floor.dart';
-import 'package:floor/floor.dart';
-import 'package:floor_annotation/floor_annotation.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
 import 'package:mobile/core/data/data_sources/local/doctor/doctor_dao.dart';
 import 'package:mobile/core/data/data_sources/local/pharmacy/pharmacy_dao.dart';

@@ -4,6 +4,8 @@ import 'package:provider/provider.dart';
 import 'package:get_it/get_it.dart';
 
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
@@ -38,7 +40,7 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Text(
+                const Text(
                   'Welcome Back',
                   style: TextStyle(
                     fontSize: 32,
@@ -46,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   textAlign: TextAlign.center,
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 TextField(
                   controller: _emailController,
                   decoration: InputDecoration(
@@ -54,11 +56,11 @@ class _LoginScreenState extends State<LoginScreen> {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
-                    prefixIcon: Icon(Icons.email),
+                    prefixIcon: const Icon(Icons.email),
                   ),
                   keyboardType: TextInputType.emailAddress,
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 TextField(
                   controller: _passwordController,
                   decoration: InputDecoration(
@@ -66,15 +68,15 @@ class _LoginScreenState extends State<LoginScreen> {
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
-                    prefixIcon: Icon(Icons.lock),
+                    prefixIcon: const Icon(Icons.lock),
                   ),
                   obscureText: true,
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Consumer<LoginViewModel>(
                   builder: (context, viewModel, child) {
                     return viewModel.isLoading
-                        ? CircularProgressIndicator()
+                        ? const CircularProgressIndicator()
                         : ElevatedButton(
                             onPressed: () {
                               viewModel.login(
@@ -82,40 +84,40 @@ class _LoginScreenState extends State<LoginScreen> {
                                 _passwordController.text,
                               );
                             },
-                            child: Padding(
-                              padding:
-                                  const EdgeInsets.symmetric(vertical: 16.0),
-                              child: Text(
-                                'Login',
-                                style: TextStyle(fontSize: 18),
-                              ),
-                            ),
                             style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12),
                               ),
                             ),
+                            child: const Padding(
+                              padding:
+                                  EdgeInsets.symmetric(vertical: 16.0),
+                              child: Text(
+                                'Login',
+                                style: TextStyle(fontSize: 18),
+                              ),
+                            ),
                           );
                   },
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Consumer<LoginViewModel>(
                   builder: (context, viewModel, child) {
                     return viewModel.errorMessage != null
                         ? Text(
                             viewModel.errorMessage!,
-                            style: TextStyle(color: Colors.red),
+                            style: const TextStyle(color: Colors.red),
                             textAlign: TextAlign.center,
                           )
                         : Container();
                   },
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 TextButton(
                   onPressed: () {
                     // Handle forgot password action
                   },
-                  child: Text(
+                  child: const Text(
                     'Forgot Password?',
                     style: TextStyle(fontSize: 16),
                   ),

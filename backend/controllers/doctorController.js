@@ -4,7 +4,25 @@ const Category = require('../models/doctorCategoryModel');
 const Speciality = require('../models/specialityModel');
 const logger = require('../config/logger');
 
+const { getUserById } = require('../models/userModel');
+const { getAgencyDBDetails } = require('../models/agencyModel');
+const { getDoctorsByAgency } = require('../models/doctorModel');
+
+
+// Fetch doctors based on user agency
 const getDoctors = async (req, res) => {
+    try {
+        const user = await getUserById(req.userId);
+        const agency_id = user.agency_id;
+        const agencyDBDetails = await getAgencyDBDetails(agency_id);
+        const doctors = await getDoctorsByAgency(agencyDBDetails);
+        res.json(doctors);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
+const err_getDoctors = async (req, res) => {
     const user = req.user;
     logger.info('Accessing getDoctors route', { user });
 

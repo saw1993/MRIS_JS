@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { login } from '../services/authService';
-import '../style/Login.css';
+import { userDashboardRouter } from '../Router.js';
+import { login } from '../../core/services/authService.js';
 
-const Login = ({ setUser, setIsAuthenticated }) => {
+import './Login.css';
+
+const Login = ({}) => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [loading, setLoading] = useState(false);
@@ -23,14 +25,15 @@ const Login = ({ setUser, setIsAuthenticated }) => {
 
         try {
             const response = await login(username, password);
-            localStorage.setItem('jwtToken', response.accessToken);
-            console.log('Successfully authenticated with token' + response.accessToken)
-            setUser(response.profile);
-            setIsAuthenticated(true);
+            localStorage.setItem('jwtToken', response.token); // Store the JWT token
             setLoading(false);
-            navigate('/dashboard'); // Redirect to the dashboard after successful login
+
+            await userDashboardRouter(response.token, navigate);
+
+
         } catch (err) {
             setError('Invalid username or password.');
+            console.log(err)
             setLoading(false);
         }
     };

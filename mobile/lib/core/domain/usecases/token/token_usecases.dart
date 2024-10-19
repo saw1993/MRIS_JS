@@ -1,4 +1,3 @@
-import 'package:mobile/core/domain/repository/token/token_repositroy.dart';
 import 'package:mobile/core/domain/usecases/token/token_delete.dart';
 import 'package:mobile/core/domain/usecases/token/token_read.dart';
 import 'package:mobile/core/domain/usecases/token/token_save.dart';

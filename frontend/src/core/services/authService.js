@@ -1,11 +1,11 @@
-export const login = async (username, password) => {
+export const login = async (email, password) => {
 
-    const response = await fetch('https://localhost:3000/auth/login', {
+    const response = await fetch('https://localhost:3003/api/auth/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ username, password })
+        body: JSON.stringify({ email, password })
         
     });
 
@@ -19,7 +19,7 @@ export const login = async (username, password) => {
 
 
 export const validateToken = async (token) => {
-    const response = await fetch('https://localhost:3000/auth/user', {
+    const response = await fetch('https://localhost:3003/api/auth/verify', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

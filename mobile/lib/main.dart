@@ -15,10 +15,12 @@ Future<void> main() async {
   await initializeDependencies();
   HttpOverrides.global = MyHttpOverrides();
 
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,19 +28,19 @@ class MyApp extends StatelessWidget {
       theme: theme(),
       navigatorKey:
           sl<NavigationService>().navigatorKey, // Use DI for NavigationService
-      home: SplashScreen(),
+      home: const SplashScreen(),
       onGenerateRoute: (RouteSettings settings) {
         switch (settings.name) {
           case AppRoutes.login:
-            return MaterialPageRoute(builder: (context) => LoginScreen());
+            return MaterialPageRoute(builder: (context) => const LoginScreen());
           case AppRoutes.mr_home:
-            return MaterialPageRoute(builder: (context) => MRHomeScreen());
+            return MaterialPageRoute(builder: (context) => const MRHomeScreen());
           case AppRoutes.admin:
-            return MaterialPageRoute(builder: (context) => AdminHomeScreen());
+            return MaterialPageRoute(builder: (context) => const AdminHomeScreen());
           case AppRoutes.msldoctorlist:
-            return MaterialPageRoute(builder: (context) => DoctorList());
+            return MaterialPageRoute(builder: (context) => const DoctorList());
           default:
-            return MaterialPageRoute(builder: (context) => SplashScreen());
+            return MaterialPageRoute(builder: (context) => const SplashScreen());
         }
       },
     );

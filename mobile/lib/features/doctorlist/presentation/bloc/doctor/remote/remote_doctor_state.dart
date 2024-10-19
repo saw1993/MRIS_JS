@@ -8,6 +8,7 @@ abstract class RemoteDoctorState extends Equatable {
 
   const RemoteDoctorState({this.doctors, this.error});
 
+  @override
   List<Object> get props => [doctors!, error!];
 }
 

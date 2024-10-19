@@ -5,6 +5,7 @@ const authorizeRole = require('../middlewares/roleMiddleware');
 const router = express.Router();
 
 router.post('/login', login);
-router.post('/verify',authenticateJWT,authorizeRole('admin'),verify);
+router.post('/verify',verify);
+router.post('/sample',authenticateJWT,authorizeRole('admin'),verify);
 
 module.exports = router;

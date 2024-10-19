@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:mobile/core/domain/repository/doctor/doctor_repository.dart';
 

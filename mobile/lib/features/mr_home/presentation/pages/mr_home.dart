@@ -3,6 +3,8 @@ import 'package:get_it/get_it.dart';
 import 'package:mobile/features/mr_home/presentation/viewmodel/mr_viewmodel.dart';
 
 class MRHomeScreen extends StatefulWidget {
+  const MRHomeScreen({super.key});
+
   @override
   _MRHomeScreenState createState() => _MRHomeScreenState();
 }
@@ -23,7 +25,7 @@ class _MRHomeScreenState extends State<MRHomeScreen> {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-        title: Row(
+        title: const Row(
           children: [Text('MRIS App')],
         ),
         centerTitle: true,
@@ -32,11 +34,11 @@ class _MRHomeScreenState extends State<MRHomeScreen> {
           onPressed: () {
             _scaffoldKey.currentState?.openDrawer();
           },
-          icon: Icon(Icons.menu),
+          icon: const Icon(Icons.menu),
         ),
       ),
       drawer: _buildDrawer(), // Build the drawer
-      body: Center(
+      body: const Center(
         child: Text('Main Content Area'),
       ),
     );
@@ -48,7 +50,7 @@ class _MRHomeScreenState extends State<MRHomeScreen> {
         padding: EdgeInsets.zero,
         children: [
           UserAccountsDrawerHeader(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.blue,
             ),
             accountName: Text(_viewModel.name),
@@ -58,20 +60,20 @@ class _MRHomeScreenState extends State<MRHomeScreen> {
             ),
           ),
           ExpansionTile(
-            leading: Icon(Icons.list),
-            title: Text('Master Lists'),
+            leading: const Icon(Icons.list),
+            title: const Text('Master Lists'),
             children: [
               ListTile(
-                leading: Icon(Icons.person),
-                title: Text('MSL Doctor List'),
+                leading: const Icon(Icons.person),
+                title: const Text('MSL Doctor List'),
                 onTap: () {
                   // Navigate to Doctor List
                   _viewModel.navigateToDoctorList();
                 },
               ),
               ListTile(
-                leading: Icon(Icons.local_pharmacy),
-                title: Text('Chemist List'),
+                leading: const Icon(Icons.local_pharmacy),
+                title: const Text('Chemist List'),
                 onTap: () {
                   // Navigate to Chemist List
                   _viewModel.navigateToChemistList();
@@ -80,8 +82,8 @@ class _MRHomeScreenState extends State<MRHomeScreen> {
             ],
           ),
           ListTile(
-            leading: Icon(Icons.settings),
-            title: Text('Settings'),
+            leading: const Icon(Icons.settings),
+            title: const Text('Settings'),
             onTap: () {
               // Handle navigation to settings
             },

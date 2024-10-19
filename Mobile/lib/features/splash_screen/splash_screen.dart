@@ -5,6 +5,8 @@ import 'package:mobile/config/routes/navigate_services.dart';
 import 'package:mobile/injection/injection_container.dart'; // Import your DI
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
@@ -19,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
     // Simulate some initialization tasks, e.g., loading data
     SchedulerBinding.instance.addPostFrameCallback((_) {
-      Future.delayed(Duration(seconds: 2), () {
+      Future.delayed(const Duration(seconds: 2), () {
         _navigationService.navigateTo(AppRoutes.login);
       });
     });
@@ -27,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: Colors.white,
       body: Center(
         child: Text('Loading Zyntec MRIS'),

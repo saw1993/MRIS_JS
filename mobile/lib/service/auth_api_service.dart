@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:mobile/core/constants/constants.dart';
 import 'package:mobile/features/login/domain/entities/Token.dart';
-import 'package:mobile/features/login/domain/entities/User.dart';
 import 'package:mobile/features/login/domain/entities/UserState.dart';
 import 'package:retrofit/retrofit.dart';
 

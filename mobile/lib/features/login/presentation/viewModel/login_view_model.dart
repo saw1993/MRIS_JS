@@ -1,7 +1,6 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:mobile/config/routes/AppRoutes.dart';
 import 'package:mobile/config/routes/navigate_services.dart';
 import 'package:mobile/core/domain/repository/token/token_repositroy.dart';

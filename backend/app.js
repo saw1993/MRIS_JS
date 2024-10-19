@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 3000;
 
 // Configure CORS
 const corsOptions = {
-    origin: 'https://localhost:3001' // Update with your frontend URL
+    origin: 'https://localhost:3000' // Update with your frontend URL
 };
 
 app.use(cors(corsOptions));

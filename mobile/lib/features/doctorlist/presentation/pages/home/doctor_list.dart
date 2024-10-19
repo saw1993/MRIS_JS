@@ -3,7 +3,7 @@ import 'package:get_it/get_it.dart';
 import 'package:mobile/features/doctorlist/presentation/viewmodel/doctor_list_viewmodel.dart';
 
 class DoctorList extends StatefulWidget {
-  const DoctorList({Key? key}) : super(key: key);
+  const DoctorList({super.key});
 
   @override
   _DoctorListState createState() => _DoctorListState();
@@ -68,16 +68,16 @@ class _DoctorListState extends State<DoctorList> {
         style: TextStyle(color: Colors.black),
       ),
       backgroundColor: Colors.white,
-      iconTheme: IconThemeData(color: Colors.black),
+      iconTheme: const IconThemeData(color: Colors.black),
       actions: [
         IconButton(
-          icon: Icon(Icons.sync),
+          icon: const Icon(Icons.sync),
           onPressed: () {
             _viewModel.syncData();
           },
         ),
         IconButton(
-          icon: Icon(Icons.add),
+          icon: const Icon(Icons.add),
           onPressed: () {
             _viewModel.addNewDoctor();
           },
@@ -116,13 +116,13 @@ class _DoctorListState extends State<DoctorList> {
             onChanged: (String? newValue) {
               _viewModel.filterDoctors(newValue!);
             },
-            hint: Text('Select Specialty'),
+            hint: const Text('Select Specialty'),
           ),
           ElevatedButton(
             onPressed: () {
               _viewModel.applyFilter();
             },
-            child: Text('Apply Filter'),
+            child: const Text('Apply Filter'),
           ),
         ],
       ),
@@ -130,7 +130,7 @@ class _DoctorListState extends State<DoctorList> {
   }
 
   Widget _buildLoadingDialog() {
-    return Center(
+    return const Center(
       child: CircularProgressIndicator(),
     );
   }
