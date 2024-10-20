@@ -1,15 +1,17 @@
-export const login = async (email, password) => {
+// authService.js
+import { getTokenFromLocalStorage } from '../utils/localStorageUtils.js';
+import { API_URLS } from '../config/apiConfig.js'; // Import the URLs
 
-    const response = await fetch('https://localhost:3003/api/auth/login', {
+export const login = async (email, password) => {
+    const response = await fetch(API_URLS.LOGIN, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({ email, password })
-        
     });
 
-    console.log(response)
+    console.log(response);
     if (!response.ok) {
         throw new Error('Failed to login');
     }
@@ -17,9 +19,9 @@ export const login = async (email, password) => {
     return response.json();
 };
 
-
-export const validateToken = async (token) => {
-    const response = await fetch('https://localhost:3003/api/auth/verify', {
+export const validateToken = async () => {
+    const token = getTokenFromLocalStorage();
+    const response = await fetch(API_URLS.VERIFY_TOKEN, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -29,7 +31,6 @@ export const validateToken = async (token) => {
 
     if (response.ok) {
         return response.json();
-        console.log('toke is this ' + response.json)
     } else {
         throw new Error('Token validation failed');
     }

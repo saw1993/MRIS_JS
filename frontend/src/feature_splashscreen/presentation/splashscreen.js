@@ -12,8 +12,7 @@ const navigate = useNavigate();
    // userDashboardRouter(token, navigate) // Call userDashboardRouter with the token and navigate
 
    useEffect(() => {
-    const token = localStorage.getItem('jwtToken');
-    userDashboardRouter(token, navigate)
+    userDashboardRouter(navigate)
   
 }, [navigate]);
 

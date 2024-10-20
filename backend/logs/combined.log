@@ -2164,3 +2164,110 @@
 2024-10-19 20:36:36 [32minfo[39m: Token request verified
 2024-10-19 20:36:36 [32minfo[39m: POST /api/auth/verify
 2024-10-19 20:36:36 [32minfo[39m: Token request verified
+2024-10-20 05:53:34 [32minfo[39m: POST /api/auth/verify
+2024-10-20 05:53:34 [31merror[39m: Invalid token: jwt expired
+2024-10-20 05:53:34 [32minfo[39m: POST /api/auth/verify
+2024-10-20 05:53:34 [31merror[39m: Invalid token: jwt expired
+2024-10-20 06:09:06 [32minfo[39m: POST /api/auth/login
+2024-10-20 06:09:06 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-10-20 06:09:06 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:09:06 [32minfo[39m: Token request verified
+2024-10-20 06:23:44 [32minfo[39m: POST /api/auth/login
+2024-10-20 06:23:45 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-10-20 06:23:45 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:23:45 [32minfo[39m: Token request verified
+2024-10-20 06:25:01 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:25:01 [32minfo[39m: Token request verified
+2024-10-20 06:25:01 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:25:01 [32minfo[39m: Token request verified
+2024-10-20 06:29:25 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:29:25 [32minfo[39m: Token request verified
+2024-10-20 06:29:25 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:29:25 [32minfo[39m: Token request verified
+2024-10-20 06:38:39 [32minfo[39m: POST /api/auth/login
+2024-10-20 06:38:39 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-10-20 06:38:39 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:38:39 [32minfo[39m: Token request verified
+2024-10-20 06:41:35 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:41:35 [32minfo[39m: Token request verified
+2024-10-20 06:41:35 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:41:35 [32minfo[39m: Token request verified
+2024-10-20 06:58:48 [32minfo[39m: POST /api/auth/login
+2024-10-20 06:58:49 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-10-20 06:58:49 [32minfo[39m: POST /api/auth/verify
+2024-10-20 06:58:49 [32minfo[39m: Token request verified
+2024-10-20 07:24:21 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:24:21 [32minfo[39m: Token request verified
+2024-10-20 07:24:26 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:24:26 [32minfo[39m: Token request verified
+2024-10-20 07:24:26 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:24:26 [32minfo[39m: Token request verified
+2024-10-20 07:31:42 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:31:42 [32minfo[39m: Token request verified
+2024-10-20 07:31:42 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:31:42 [32minfo[39m: Token request verified
+2024-10-20 07:34:03 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:34:03 [32minfo[39m: Token request verified
+2024-10-20 07:34:03 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:34:03 [32minfo[39m: Token request verified
+2024-10-20 07:35:45 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:35:45 [31merror[39m: Invalid token: jwt expired
+2024-10-20 07:35:48 [32minfo[39m: POST /api/auth/login
+2024-10-20 07:35:48 [32minfo[39m: User logged in: supun@zyntec.lk
+2024-10-20 07:35:57 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:35:57 [32minfo[39m: Token request verified for authMiddleware: function toString() { [native code] }
+2024-10-20 07:41:24 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:41:24 [32minfo[39m: Token request verified
+2024-10-20 07:41:24 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:41:24 [32minfo[39m: Token request verified
+2024-10-20 07:41:26 [32minfo[39m: POST /api/doctor/getall
+2024-10-20 07:41:26 [32minfo[39m: POST /api/doctor/getall
+2024-10-20 07:41:49 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:41:49 [33mwarn[39m: No token provided
+2024-10-20 07:41:52 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:41:52 [33mwarn[39m: No token provided
+2024-10-20 07:41:52 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:41:52 [33mwarn[39m: No token provided
+2024-10-20 07:41:55 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:41:55 [32minfo[39m: Token request verified
+2024-10-20 07:41:55 [32minfo[39m: POST /api/auth/verify
+2024-10-20 07:41:55 [32minfo[39m: Token request verified
+2024-10-20 07:41:56 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:41:56 [33mwarn[39m: No token provided
+2024-10-20 07:41:56 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:41:56 [33mwarn[39m: No token provided
+2024-10-20 07:42:07 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:42:07 [32minfo[39m: Token request verified for authMiddleware: function toString() { [native code] }
+2024-10-20 07:43:22 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:43:22 [33mwarn[39m: No token provided
+2024-10-20 07:43:22 [32minfo[39m: GET /favicon.ico
+2024-10-20 07:44:13 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:44:13 [33mwarn[39m: No token provided
+2024-10-20 07:44:44 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:44:44 [33mwarn[39m: No token provided
+2024-10-20 07:44:58 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:44:58 [33mwarn[39m: No token provided
+2024-10-20 07:45:02 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:45:02 [33mwarn[39m: No token provided
+2024-10-20 07:45:02 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:45:02 [33mwarn[39m: No token provided
+2024-10-20 07:45:03 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:45:03 [33mwarn[39m: No token provided
+2024-10-20 07:45:03 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:45:03 [33mwarn[39m: No token provided
+2024-10-20 07:45:26 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:45:26 [33mwarn[39m: No token provided
+2024-10-20 07:45:48 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:45:48 [32minfo[39m: Token request verified for authMiddleware: function toString() { [native code] }
+2024-10-20 07:45:49 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:45:49 [32minfo[39m: Token request verified for authMiddleware: function toString() { [native code] }
+2024-10-20 07:45:58 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:45:58 [31merror[39m: Invalid token: invalid token
+2024-10-20 07:46:01 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:46:01 [32minfo[39m: Token request verified for authMiddleware: function toString() { [native code] }
+2024-10-20 07:47:23 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:47:23 [32minfo[39m: Token request verified for authMiddleware: function toString() { [native code] }
+2024-10-20 07:47:42 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:47:42 [32minfo[39m: Token request verified for authMiddleware: function toString() { [native code] }
+2024-10-20 07:47:42 [32minfo[39m: GET /api/doctor/getall
+2024-10-20 07:47:42 [32minfo[39m: Token request verified for authMiddleware: function toString() { [native code] }

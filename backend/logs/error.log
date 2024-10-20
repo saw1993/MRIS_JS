@@ -194,3 +194,7 @@
 2024-10-19 18:39:17 [31merror[39m: Invalid token: invalid token
 2024-10-19 18:40:16 [31merror[39m: Invalid token: jwt malformed
 2024-10-19 20:26:18 [31merror[39m: Invalid token: jwt malformed
+2024-10-20 05:53:34 [31merror[39m: Invalid token: jwt expired
+2024-10-20 05:53:34 [31merror[39m: Invalid token: jwt expired
+2024-10-20 07:35:45 [31merror[39m: Invalid token: jwt expired
+2024-10-20 07:45:58 [31merror[39m: Invalid token: invalid token
