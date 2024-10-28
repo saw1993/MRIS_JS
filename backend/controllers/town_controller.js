@@ -1,5 +1,7 @@
 const Town = require('../models/townModel');
 const logger = require('../config/logger');
+const { getUserById } = require('../models/userModel');
+const { getAgencyDBDetails } = require('../models/agencyModel');
 
 const addTown = async (req, res) => {
     const townData = req.body;
@@ -22,7 +24,10 @@ const addTown = async (req, res) => {
 const getAllTowns = async (req, res) => {
     logger.info('Request to fetch all towns');
     try {
-        const results = await Town.getAllTowns();
+        const user = await getUserById(req.userId);
+        const agency_id = user.agency_id;
+        const agencyDBDetails = await getAgencyDBDetails(agency_id);
+        const results = await Town.getTownsByAgency(agencyDBDetails);
         res.status(200).json(results);
     } catch (err) {
         logger.error('Error fetching towns', { error: err.message });

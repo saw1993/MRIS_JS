@@ -1,5 +1,6 @@
 const pool = require('../config/db');
 const logger = require('../config/logger');
+const { createAgencyDBConnection } = require('../config/db');
 
 const Town = {
 
@@ -19,10 +20,18 @@ const Town = {
         }
     },
 
+    getTownsByAgency:async(agencyDetails)=> {
+        logger.info('Fetching all towns');
+        const connection = await createAgencyDBConnection(agencyDetails);
+        const [rows] = await connection.execute('SELECT * FROM towns');
+        connection.end();
+        return rows;
+    },
+
 
     // Get all towns
     getAllTowns: async () => {
-        logger.info('Fetching all towns');
+        
         const query = 'SELECT * FROM towns';
         try {
             const [results] = await db.query(query);
@@ -34,9 +43,10 @@ const Town = {
     },
 
       // Check if a town exists
-      checkTownExists: async (town_id) => {
+      checkTownExists: async (town_id,agencyDetails) => {
         try {
-            const [results] = await pool.query('SELECT 1 FROM towns WHERE town_id = ?', [town_id]);
+            const connection = await createAgencyDBConnection(agencyDetails);
+            const [results] = await connection.query('SELECT 1 FROM towns WHERE town_id = ?', [town_id]);
             return results.length > 0;
         } catch (err) {
             throw err;

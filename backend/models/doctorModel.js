@@ -43,9 +43,10 @@ const Doctor = {
     },
 
     // Create a new doctor
-    create: async (data) => {
+    create: async (data,agencyDetails) => {
         const { name, speciality_id, category_id, town_id, telephone, email, slmc_no, birthday, remarks, frequency } = data;
 
+        
         logger.info('Creating doctor', { data });
 
 
@@ -53,7 +54,8 @@ const Doctor = {
         const values = [name, speciality_id, category_id, town_id, telephone, email, slmc_no, birthday, remarks, frequency];
 
         try {
-            const [results] = await pool.query(query, values);
+            const connection = await createAgencyDBConnection(agencyDetails);
+            const [results] = await connection.query(query, values);
             logger.info('Doctor created successfully', { doctorId: results.insertId });
             return results;
         } catch (err) {

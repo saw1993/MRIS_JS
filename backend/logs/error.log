@@ -198,3 +198,179 @@
 2024-10-20 05:53:34 [31merror[39m: Invalid token: jwt expired
 2024-10-20 07:35:45 [31merror[39m: Invalid token: jwt expired
 2024-10-20 07:45:58 [31merror[39m: Invalid token: invalid token
+2024-10-20 09:27:52 [31merror[39m: Invalid token: jwt expired
+2024-10-20 09:27:52 [31merror[39m: Invalid token: jwt expired
+2024-10-20 09:28:29 [31merror[39m: Invalid token: jwt expired
+2024-10-20 09:28:29 [31merror[39m: Invalid token: jwt expired
+2024-10-20 10:10:24 [31merror[39m: Missing required fields for town
+2024-10-20 10:10:34 [31merror[39m: Missing required fields for town
+2024-10-20 10:13:07 [31merror[39m: Error fetching towns
+2024-10-20 10:13:07 [31merror[39m: Error fetching towns
+2024-10-20 10:17:55 [31merror[39m: Error fetching towns
+2024-10-20 10:18:43 [31merror[39m: Error fetching towns
+2024-10-20 10:41:01 [31merror[39m: Error fetching specialties
+2024-10-20 10:41:01 [31merror[39m: Error fetching specialties
+2024-10-20 10:42:14 [31merror[39m: Error fetching specialties
+2024-10-20 10:42:14 [31merror[39m: Error fetching specialties
+2024-10-20 11:00:06 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:02:27 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:03:21 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:29 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:29 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:30 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:30 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:32 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:32 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:32 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:32 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:33 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:33 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:34 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:34 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:35 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:35 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:36 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:36 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:47 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:04:47 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:24:20 [31merror[39m: Invalid token: jwt expired
+2024-10-20 11:42:28 [31merror[39m: Invalid token: invalid signature
+2024-10-20 11:43:03 [31merror[39m: Invalid token: invalid signature
+2024-10-20 11:59:48 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:11:53 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:12:03 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:12:03 [31merror[39m: Invalid token: jwt expired
+2024-10-20 12:13:40 [31merror[39m: Missing required fields
+2024-10-20 12:13:46 [31merror[39m: Error creating doctor
+2024-10-20 12:13:46 [31merror[39m: Error creating doctor
+2024-10-20 12:13:50 [31merror[39m: Error creating doctor
+2024-10-20 12:13:50 [31merror[39m: Error creating doctor
+2024-10-20 12:14:51 [31merror[39m: Error creating doctor
+2024-10-20 12:14:51 [31merror[39m: Error creating doctor
+2024-10-20 12:14:59 [31merror[39m: Error creating doctor
+2024-10-20 12:14:59 [31merror[39m: Error creating doctor
+2024-10-20 12:15:07 [31merror[39m: Error creating doctor
+2024-10-20 12:15:07 [31merror[39m: Error creating doctor
+2024-10-20 12:15:37 [31merror[39m: Error creating doctor
+2024-10-20 12:15:37 [31merror[39m: Error creating doctor
+2024-10-20 12:16:15 [31merror[39m: Error creating doctor
+2024-10-20 12:16:15 [31merror[39m: Error creating doctor
+2024-10-20 12:16:47 [31merror[39m: Error creating doctor
+2024-10-20 12:16:47 [31merror[39m: Error creating doctor
+2024-10-20 12:19:31 [31merror[39m: Error creating doctor
+2024-10-20 12:19:31 [31merror[39m: Error creating doctor
+2024-10-20 12:19:35 [31merror[39m: Error creating doctor
+2024-10-20 12:19:35 [31merror[39m: Error creating doctor
+2024-10-20 17:32:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:32:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:32:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:32:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:32:44 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:34:42 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:34:42 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:34:42 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:34:42 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:01 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:07 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:35:07 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:37:12 [31merror[39m: Error creating doctor
+2024-10-20 17:37:12 [31merror[39m: Error creating doctor
+2024-10-20 17:37:16 [31merror[39m: Error creating doctor
+2024-10-20 17:37:16 [31merror[39m: Error creating doctor
+2024-10-20 17:37:45 [31merror[39m: Error creating doctor
+2024-10-20 17:37:45 [31merror[39m: Error creating doctor
+2024-10-20 17:37:46 [31merror[39m: Error creating doctor
+2024-10-20 17:37:46 [31merror[39m: Error creating doctor
+2024-10-20 17:37:46 [31merror[39m: Error creating doctor
+2024-10-20 17:37:46 [31merror[39m: Error creating doctor
+2024-10-20 17:37:51 [31merror[39m: Error creating doctor
+2024-10-20 17:37:51 [31merror[39m: Error creating doctor
+2024-10-20 17:39:13 [31merror[39m: Error creating doctor
+2024-10-20 17:39:13 [31merror[39m: Error creating doctor
+2024-10-20 17:39:13 [31merror[39m: Error creating doctor
+2024-10-20 17:39:13 [31merror[39m: Error creating doctor
+2024-10-20 17:42:23 [31merror[39m: Error creating doctor
+2024-10-20 17:42:23 [31merror[39m: Error creating doctor
+2024-10-20 17:44:57 [31merror[39m: Invalid token: jwt expired
+2024-10-20 17:45:12 [31merror[39m: Error creating doctor
+2024-10-20 17:45:12 [31merror[39m: Error creating doctor
+2024-10-20 17:52:29 [31merror[39m: Error creating doctor
+2024-10-20 17:52:29 [31merror[39m: Error creating doctor
+2024-10-20 17:54:24 [31merror[39m: Missing required fields
+2024-10-20 17:54:30 [31merror[39m: Error creating doctor
+2024-10-20 17:54:30 [31merror[39m: Error creating doctor
+2024-10-20 17:54:38 [31merror[39m: Error creating doctor
+2024-10-20 17:54:38 [31merror[39m: Error creating doctor
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:45:56 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:46:01 [31merror[39m: Invalid token: jwt expired
+2024-10-22 08:46:01 [31merror[39m: Invalid token: jwt expired
+2024-10-22 10:54:41 [31merror[39m: Invalid token: jwt expired
+2024-10-22 10:54:42 [31merror[39m: Invalid token: jwt expired
+2024-10-23 10:40:43 [31merror[39m: Invalid token: jwt expired
+2024-10-23 10:40:43 [31merror[39m: Invalid token: jwt expired
+2024-10-24 06:53:01 [31merror[39m: Invalid token: jwt expired
+2024-10-24 06:53:01 [31merror[39m: Invalid token: jwt expired
+2024-10-24 07:59:56 [31merror[39m: Invalid token: jwt expired
+2024-10-24 07:59:56 [31merror[39m: Invalid token: jwt expired
+2024-10-25 07:58:54 [31merror[39m: Invalid token: jwt expired
+2024-10-25 07:58:54 [31merror[39m: Invalid token: jwt expired
+2024-10-27 06:17:53 [31merror[39m: Invalid token: jwt expired
+2024-10-27 06:17:53 [31merror[39m: Invalid token: jwt expired
+2024-10-27 07:44:27 [31merror[39m: Invalid token: jwt expired
+2024-10-27 07:44:27 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:46:53 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:01 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:03 [31merror[39m: Invalid token: jwt expired
+2024-10-28 06:47:03 [31merror[39m: Invalid token: jwt expired
+2024-10-28 07:47:19 [31merror[39m: Invalid token: jwt expired
+2024-10-28 07:47:43 [31merror[39m: Invalid token: jwt expired
+2024-10-28 07:47:56 [31merror[39m: Invalid token: jwt expired

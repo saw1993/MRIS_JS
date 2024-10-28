@@ -22,6 +22,19 @@ const getDoctors = async (req, res) => {
     }
 };
 
+// Fetch doctors based on user agency
+const getCategory = async (req, res) => {
+    try {
+        const user = await getUserById(req.userId);
+        const agency_id = user.agency_id;
+        const agencyDBDetails = await getAgencyDBDetails(agency_id);
+        const doctors = await Category.getAllCategories(agencyDBDetails);
+        res.json(doctors);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
 const err_getDoctors = async (req, res) => {
     const user = req.user;
     logger.info('Accessing getDoctors route', { user });
@@ -60,6 +73,10 @@ const getDoctorById = async (req, res) => {
 
 const createDoctor = async (req, res) => {
     const data = req.body;
+    const user = await getUserById(req.userId);
+    const agency_id = user.agency_id;
+    const agencyDBDetails = await getAgencyDBDetails(agency_id);
+
     logger.info('Accessing createDoctor route', { data });
 
      // Validate input data
@@ -69,19 +86,19 @@ const createDoctor = async (req, res) => {
     }
 
     // Validate speciality, category, and town existence
-    const specialityExists = await Speciality.checkSpecialityExists(data.speciality_id);
+    const specialityExists = await Speciality.checkSpecialityExists(data.speciality_id,agencyDBDetails);
     if (!specialityExists) {
         logger.warn('Speciality does not exist');
         return res.status(400).json({ error: 'Speciality ID does not exist' });
     }
 
-    const categoryExists = await Category.checkCategoryExists(data.category_id);
+    const categoryExists = await Category.checkCategoryExists(data.category_id,agencyDBDetails);
     if (!categoryExists) {
         logger.warn('Category does not exist');
         return res.status(400).json({ error: 'Category ID does not exist' });
     }
 
-    const townExists = await Town.checkTownExists(data.town_id);
+    const townExists = await Town.checkTownExists(data.town_id,agencyDBDetails);
     if (!townExists) {
         logger.warn('Town does not exist', { town_id });
         return res.status(400).json({ error: 'Town ID does not exist' });
@@ -91,7 +108,10 @@ const createDoctor = async (req, res) => {
     try {
     
         // Insert doctor if both checks pass
-        const result = await Doctor.create(data);
+        const user = await getUserById(req.userId);
+        const agency_id = user.agency_id;
+        const agencyDBDetails = await getAgencyDBDetails(agency_id);
+        const result = await Doctor.create(data,agencyDBDetails);
         logger.info('Doctor created successfully', { doctorId: result.insertId });
         res.status(201).json({ message: 'Doctor created', doctorId: result.insertId });
     } catch (err) {
@@ -148,4 +168,4 @@ const deleteDoctor = async (req, res) => {
     }
 };
 
-module.exports = { getDoctors, getDoctorById, createDoctor, updateDoctor, deleteDoctor };
+module.exports = { getDoctors, getDoctorById, getCategory, createDoctor, updateDoctor, deleteDoctor };
