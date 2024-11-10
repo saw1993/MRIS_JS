@@ -5,7 +5,7 @@ import { CssBaseline,ThemeProvider } from '@mui/material/';
 import SplashScreen from './feature_splashscreen/presentation/splashscreen.js';
 import AdminDashboard from './feature_admin_home/presentation/AdminDashboard.js';
 import MRDashboard from './feature_mr_home/presentation/mr_dashboard.jsx';
-import DoctorList from './feature_doctor_list/presentation/Ob_DoctorList.js';
+import DoctorList from './feature_doctor_list/presentation/DoctorList.js';
 import ChemistLists from './feature_chemist_list/presentation/ChemistList.js';
 import Login from './feature_login/presentation/Login.js';
 

@@ -1,11 +1,19 @@
-const { createMainDBConnection } = require('../config/db');
+const Agency = require('../models/definedModels/Agency');
 
-// Get agency database connection details
 const getAgencyDBDetails = async (agency_id) => {
-    const connection = await createMainDBConnection();
-    const [rows] = await connection.execute('SELECT * FROM agency_connections WHERE agency_id = ?', [agency_id]);
-    connection.end();
-    return rows[0]; // Returns the connection details for the agency's DB
+    try {
+        const agencyDetails = await Agency.findOne({
+            where: { agency_id },
+            attributes: ['db_name', 'db_host', 'db_user', 'db_password', 'db_port', 'remarks']
+        });
+        if (!agencyDetails) {
+            throw new Error(`No database connection details found for agency_id ${agency_id}`);
+        }
+        return agencyDetails.get({ plain: true }); // Returns plain object with connection details
+    } catch (error) {
+        console.error(`Error fetching agency database details: ${error.message}`);
+        throw error;
+    }
 };
 
 module.exports = { getAgencyDBDetails };

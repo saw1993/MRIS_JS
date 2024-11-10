@@ -1,6 +1,6 @@
 const Route = require('../models/routeModel');
 const logger = require('../config/logger');
-const { getUserById } = require('../models/userModel');
+const { getUserById } = require('../repositories/userRepository');
 const { getAgencyDBDetails } = require('../models/agencyModel');
 
 const addRoute = async (req, res) => {

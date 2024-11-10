@@ -4,7 +4,7 @@ const Category = require('../models/doctorCategoryModel');
 const Speciality = require('../models/specialityModel');
 const logger = require('../config/logger');
 
-const { getUserById } = require('../models/userModel');
+const { getUserById } = require('../repositories/userRepository');
 const { getAgencyDBDetails } = require('../models/agencyModel');
 const { getDoctorsByAgency } = require('../models/doctorModel');
 

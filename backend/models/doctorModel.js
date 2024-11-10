@@ -1,26 +1,52 @@
 const pool = require('../config/db');
 const logger = require('../config/logger');
 const { createAgencyDBConnection } = require('../config/db');
+const { initializeModelsForAgency } = require('./definedModels/index');
 
 const Doctor = {
 
-    getDoctorsByAgency:async(agencyDetails)=> {
-        const connection = await createAgencyDBConnection(agencyDetails);
-        const [rows] = await connection.execute('SELECT * FROM doctors');
-        connection.end();
-        return rows;
+    getDoctorsByAgency: async (agencyDetails) => {
+        try {
+           
+            // Initialize models with the specific agency connection
+            const { Doctor, DoctorSpeciality, Town, Route } = await initializeModelsForAgency(agencyDetails);
+    
+            // Fetch doctors with their specialties, towns, and routes
+            const doctors = await Doctor.findAll({
+                include: [
+                    { model: DoctorSpeciality, as: 'speciality', attributes: ['speciality_name'] },
+                    { model: Town, as: 'town', attributes: ['town_name'] },
+                    { model: Route, as: 'route', attributes: ['name'] },
+                ],
+                where: { agency_id: agencyDetails.agency_id }  // Assuming `agency_id` is in the Doctor table
+            });
+    
+            return doctors;
+        } catch (error) {
+            console.error('Error fetching doctors by agency', { error: error.message });
+            throw error; // Rethrow the error for handling elsewhere if needed
+        }
     },
+
     
     // Get all doctors
     getAll: async () => {
-        logger.info('Fetching all doctors');
-
+        logger.info('Fetching all doctors with town and speciality names');
+    
         try {
-            const [results] = await pool.query('SELECT * FROM doctors');
-            logger.info('Doctors fetched successfully', { results });
+            const [results] = await pool.query(`
+                SELECT d.doctor_id, d.category_id, d.name, d.telephone, d.email, d.slmc_no, 
+                       d.birthday, d.remarks, d.frequency, d.speciality_id, d.town_id, 
+                       s.speciality_name, t.town_name, r.name AS route_name
+                FROM doctors d
+                LEFT JOIN doctor_specialities s ON d.speciality_id = s.speciality_id
+                LEFT JOIN towns t ON d.town_id = t.town_id
+                LEFT JOIN routes r ON d.route_id = r.route_id
+            `);
+            logger.info('Doctors with town and speciality names fetched successfully', { results });
             return results;
         } catch (err) {
-            logger.error('Error fetching doctors', { error: err.message });
+            logger.error('Error fetching doctors with town and speciality names', { error: err.message });
             throw err;
         }
     },

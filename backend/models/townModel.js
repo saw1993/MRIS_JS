@@ -1,8 +1,9 @@
 const pool = require('../config/db');
 const logger = require('../config/logger');
 const { createAgencyDBConnection } = require('../config/db');
+const { Town } = require('./definedModels/Towns.js');
 
-const Town = {
+const TownModel = {
 
     // Add a new town
     addTown: async (townData) => {
@@ -23,9 +24,13 @@ const Town = {
     getTownsByAgency:async(agencyDetails)=> {
         logger.info('Fetching all towns');
         const connection = await createAgencyDBConnection(agencyDetails);
-        const [rows] = await connection.execute('SELECT * FROM towns');
-        connection.end();
-        return rows;
+        try {
+            const towns = await Town.findAll();
+            return towns; // Returns an array of town instances
+        } catch (error) {
+            console.error('Error fetching all towns:', error.message);
+            throw error; // Rethrow or handle the error appropriately
+        }
     },
 
 

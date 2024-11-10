@@ -1,76 +1,39 @@
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken'); 
-const { JWT_SECRET } = process.env;
-const { findUserByEmail, findUserByID  ,getUserById} = require('../models/userModel');
-const { generateToken , verifyToken } = require('../utils/jwtUtils');
+const loginUser = require('../usecases/login/loginUser');
+const verifyUserToken = require('../usecases/login/verifyUserToken');
+const userRepository = require('../repositories/userRepository');
 const logger = require('../config/logger');
-
-const createResponse = (user = "", status = "Failed", message = "") => {
-  return { user, status, message };
-};
-
+const ResponseHandler = require('../utils/ResponseHandler');
 
 const login = async (req, res) => {
   const { email, password } = req.body;
-  const user = await findUserByEmail(email);
-  if (!user) {
-    logger.warn(`Login failed: User with email ${email} not found`);
-    const tokenResponse = {
-      token: "",
-      status:"User Not Found"
-    };
-    return res.status(400).send(tokenResponse);
-  }
 
-  const validPass = await bcrypt.compare(password, user.password);
-  if (!validPass) {
-    logger.warn(`Login failed: Incorrect password for email ${email}`);
-    const tokenResponse = {
-      token: "",
-      status:"Invalid Password"
-    };
-    return res.status(400).send(tokenResponse);
+  try {
+    const { token } = await loginUser(email, password, userRepository);
+    logger.info(`User logged in: ${email}`);
+    res.header('auth-token', token);
+    return ResponseHandler.success(res, { token }, 'User logged in successfully');
+  } catch (error) {
+    logger.warn(`Login failed: ${error.message}`);
+    return ResponseHandler.fail(res, error.message, null, 400);
   }
-
-      const token = generateToken(user);
-      logger.info(`User logged in: ${email}`);
-      const tokenResponse = {
-        token: token,
-        status:"Success"
-      };
-      res.header('auth-token', token).send(tokenResponse);
 };
 
 const verify = async (req, res) => {
   const token = req.header('Authorization')?.split(' ')[1];
 
-    if (!token) {
-        logger.warn('No token provided');
-        return res.status(401).send(createResponse("", "Failed", "No token Provided"));
-    }
-
-  try {
-    
-    const decoded = verifyToken(token);
-    logger.info(`Token request verified`);
-
-    const user = await getUserById(decoded.id);
-
-    if (user.user_id > 0) {
-      return res.status(200).send(createResponse(user, "Success", "User retrieved"));
-  } else {
-      return res.status(401).send(createResponse("", "Failed", "User Not Found"));
+  if (!token) {
+    logger.warn('No token provided');
+    return ResponseHandler.fail(res, 'No token provided', null, 401);
   }
 
-
-
+  try {
+    const user = await verifyUserToken(token, userRepository);
+    logger.info('User token verified');
+    return ResponseHandler.success(res, user, 'User retrieved successfully');
   } catch (err) {
-    logger.error(`Invalid token: ${err.message}`);
-    return res.status(401).send(createResponse("", "Failed", "Invalid token Provided"));
+    logger.error(`Token verification failed: ${err.message}`);
+    return ResponseHandler.fail(res, err.message, null, 401);
   }
 };
 
-
-
-
-module.exports = { login , verify};
+module.exports = { login, verify };

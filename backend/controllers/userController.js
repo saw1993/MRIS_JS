@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const { createUser, updateUser, deleteUser } = require('../models/userModel');
+const { createUser, updateUser, deleteUser } = require('../repositories/userRepository');
 const logger = require('../config/logger');
 
 const addUser = async (req, res) => {
