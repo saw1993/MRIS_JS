@@ -3,5 +3,5 @@ module.exports = {
     EDIT_USER: 2,
     DELETE_USER: 3,
     CREATE_USER: 4,
-    VIEW_DOCTORS: 5
+    VIEW_DOCTORS: 2
 };

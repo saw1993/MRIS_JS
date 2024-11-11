@@ -1,6 +1,5 @@
 const { Model, DataTypes } = require('sequelize');
 const { createMainDBConnection } = require('../../config/db');
-const RolePermission = require('./RolePermission');
 
 const sequelize = createMainDBConnection();
 
@@ -22,9 +21,8 @@ Permission.init({
   sequelize, // Pass the Sequelize instance
   modelName: 'Permission',
   tableName: 'permissions', // Specify the correct table name
-  timestamps: true, // Adds createdAt and updatedAt fields
+  timestamps: false, // Adds createdAt and updatedAt fields
 });
 
-Permission.hasMany(RolePermission, { foreignKey: 'permission_id' });
 
 module.exports = Permission;

@@ -517,3 +517,43 @@
 2024-11-10 19:36:29 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
 2024-11-10 19:40:04 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
 2024-11-10 19:40:04 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 06:54:04 [31merror[39m: Invalid token: jwt expired
+2024-11-11 06:54:22 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
+2024-11-11 06:54:22 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 06:57:42 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
+2024-11-11 06:57:42 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:00:34 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
+2024-11-11 07:00:34 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:01:11 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
+2024-11-11 07:01:11 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:02:20 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
+2024-11-11 07:02:20 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:03:48 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
+2024-11-11 07:03:48 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:04:46 [31merror[39m: Error in checkPermission middleware: Cannot read properties of undefined (reading 'permission_id')
+2024-11-11 07:07:12 [31merror[39m: Error in checkPermission middleware: Cannot read properties of undefined (reading 'permission_id')
+2024-11-11 07:08:13 [31merror[39m: Error in checkPermission middleware: Cannot read properties of undefined (reading 'permission_id')
+2024-11-11 07:08:38 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.forEach is not a function
+2024-11-11 07:08:38 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:09:31 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.map is not a function
+2024-11-11 07:09:31 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:10:46 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.map is not a function
+2024-11-11 07:10:46 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:11:48 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.map is not a function
+2024-11-11 07:11:48 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:12:20 [31merror[39m: Error fetching permissions for Role ID 1: Unknown column 'Permission.role_id' in 'where clause'
+2024-11-11 07:12:20 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:13:37 [31merror[39m: Error fetching permissions for Role ID 1: Unknown column 'Permission.role_id' in 'where clause'
+2024-11-11 07:13:37 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:13:58 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.map is not a function
+2024-11-11 07:13:58 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:14:47 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
+2024-11-11 07:14:47 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:15:11 [31merror[39m: Error fetching permissions for Role ID 1: Permission is not associated to RolePermission!
+2024-11-11 07:15:11 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:15:27 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.map is not a function
+2024-11-11 07:15:27 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:16:29 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.map is not a function
+2024-11-11 07:16:29 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:17:46 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.map is not a function
+2024-11-11 07:17:46 [31merror[39m: Error in checkPermission middleware: Error fetching permissions

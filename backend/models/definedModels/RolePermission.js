@@ -12,7 +12,7 @@ class RolePermission extends Model {}
 
 // Initialize the RolePermission model with explicit column definitions
 RolePermission.init({
-  roleId: {  // Renamed to camelCase to match JS conventions
+  role_Id: {  // Renamed to camelCase to match JS conventions
     type: DataTypes.INTEGER,
     references: {
       model: Role,     // Reference the Role model
@@ -21,7 +21,7 @@ RolePermission.init({
     allowNull: false,  // Ensure this field is not null
   },
   
-  permissionId: {  // Renamed to camelCase to match JS conventions
+  permission_Id: {  // Renamed to camelCase to match JS conventions
     type: DataTypes.INTEGER,
     references: {
       model: Permission,  // Reference the Permission model
@@ -36,6 +36,9 @@ RolePermission.init({
   timestamps: false,        // No need for createdAt/updatedAt fields
 });
 
-RolePermission.belongsTo(Permission, { foreignKey: 'permission_id' });
+// Define the many-to-many relationship using the junction table
+Role.belongsToMany(Permission, { through: RolePermission, foreignKey: 'role_Id' });
+Permission.belongsToMany(Role, { through: RolePermission, foreignKey: 'permission_Id' });
+
 
 module.exports = RolePermission;

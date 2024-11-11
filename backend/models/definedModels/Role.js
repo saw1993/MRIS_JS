@@ -26,6 +26,7 @@ Role.init({
 }, {
   sequelize, // Pass the Sequelize instance
   modelName: 'Role',
+  timestamps: false,  
   tableName: 'user_roles', // Specify the correct table name
 });
 

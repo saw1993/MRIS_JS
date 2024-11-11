@@ -24,6 +24,8 @@ const checkPermission = (permissionID) => {
             // Check if the required permission exists in any of the roles 
             let hasPermission = false;
             const permissions = await permissionRepository.getPermissionsForRole(user.role_id);
+
+        
             hasPermission = permissions.some(permission => permission.permission_id === permissionID);
 
             if (hasPermission) {
