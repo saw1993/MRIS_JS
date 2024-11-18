@@ -28,6 +28,8 @@ class Route extends Model {
             tableName: 'routes',
             timestamps: false, // Assuming no createdAt or updatedAt fields
         });
+
+    
     } 
 }
 

@@ -3,5 +3,14 @@ module.exports = {
     EDIT_USER: 2,
     DELETE_USER: 3,
     CREATE_USER: 4,
-    VIEW_DOCTORS: 2
+
+    VIEW_DOCTORS: 5,
+    EDIT_DOCTOR: 6,
+    DELETE_DOCTOR: 7,
+    CREATE_DOCTOR: 8,
+    
+    VIEW_CHEMISTS: 9,
+    EDIT_CHEMIST: 10,
+    DELETE_CHEMIST: 11,
+    CREATE_CHEMIST: 12
 };

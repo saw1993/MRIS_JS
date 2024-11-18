@@ -7,9 +7,9 @@ const PERMISSIONS = require('../constants/PermissionData.js');
 const checkPermission = require('../middlewares/checkPermissionMiddleware.js');
 
 router.get('/getall',authenticateJWT, checkPermission(PERMISSIONS.VIEW_DOCTORS), getDoctors);
-router.get('/:id',authenticateJWT, authorizeRole('admin'), getDoctorById);
-router.post('/add', authenticateJWT, authorizeRole('admin'),createDoctor);
-router.put('/update/:id',authenticateJWT, authorizeRole('admin'), updateDoctor);
-router.delete('/delete/:id',authenticateJWT, authorizeRole('admin'), deleteDoctor);
+router.get('/:id',authenticateJWT, checkPermission(PERMISSIONS.VIEW_DOCTORS), getDoctorById);
+router.post('/add', authenticateJWT, checkPermission(PERMISSIONS.CREATE_DOCTOR),createDoctor);
+router.put('/update/:id',authenticateJWT, checkPermission(PERMISSIONS.EDIT_DOCTOR), updateDoctor);
+router.delete('/delete/:id',authenticateJWT, checkPermission(PERMISSIONS.DELETE_DOCTOR), deleteDoctor);
 
 module.exports = router;

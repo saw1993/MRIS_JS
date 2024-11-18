@@ -1,6 +1,7 @@
 // src/models/User.js
 const { Model, DataTypes } = require('sequelize');
 const { createMainDBConnection } = require('../../config/db');
+const UserHierarchy = require('./UserHierarchy');
 
 const sequelize = createMainDBConnection();
 
@@ -25,10 +26,6 @@ User.init({
         type: DataTypes.STRING,
         allowNull: false,
     },
-    role_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-    },
     agency_id: {
         type: DataTypes.INTEGER,
         allowNull: true,
@@ -49,5 +46,11 @@ User.init({
     createdAt: 'created_at', // Use custom database column names
     updatedAt: 'updated_at',
 });
+
+User.belongsTo(UserHierarchy, {
+    foreignKey: 'user_id',
+    as: 'user_hierarchy',
+  });
+
 
 module.exports = User;

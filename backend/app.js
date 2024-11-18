@@ -19,6 +19,7 @@ const PORT = process.env.PORT || 3000;
 
 
 
+
 // Configure CORS
 const corsOptions = {
     origin: 'https://localhost:3000' // Update with your frontend URL
@@ -43,6 +44,8 @@ const certificate = fs.readFileSync('cert.pem', 'utf8');
 const credentials = { key: privateKey, cert: certificate };
 
 const httpsServer = https.createServer(credentials, app);
+
+
 
 httpsServer.listen(parseInt(PORT), () => {
     logger.info(`HTTPS Server running on port ${PORT}`);

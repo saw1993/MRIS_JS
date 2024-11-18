@@ -3,10 +3,15 @@ const Town = require('../models/townModel');
 const Category = require('../models/doctorCategoryModel');
 const Speciality = require('../models/specialityModel');
 const logger = require('../config/logger');
+const { createAgencyDBConnection } = require('../config/db');
 
+//const { getAllDoctors } = require('../repositories/doctorRepository');
+const getAllDoctors = require('../usecases/doctor/getAllDoctors');
+const getRepDoctors = require('../usecases/doctor/getRepDoctors')
 const { getUserById } = require('../repositories/userRepository');
 const { getAgencyDBDetails } = require('../models/agencyModel');
 const { getDoctorsByAgency } = require('../models/doctorModel');
+
 
 
 // Fetch doctors based on user agency
@@ -15,7 +20,9 @@ const getDoctors = async (req, res) => {
         const user = await getUserById(req.userId);
         const agency_id = user.agency_id;
         const agencyDBDetails = await getAgencyDBDetails(agency_id);
-        const doctors = await getDoctorsByAgency(agencyDBDetails);
+        const agency_DB = createAgencyDBConnection(agencyDBDetails)
+        //const doctors = await getAllDoctors(agency_DB);
+        const doctors = await getRepDoctors(user.user_id,agency_DB)
         res.json(doctors);
     } catch (error) {
         res.status(500).json({ message: error.message });

@@ -12,7 +12,6 @@ const authMiddleware = (req, res, next) => {
   try {
     const decoded = verifyToken(token);
     req.userId = decoded.id;  // Attach user ID to request
-    logger.info(`Token request verified for authMiddleware: ${decoded.toString}`);
     next();
   } catch (err) {
     logger.error(`Invalid token: ${err.message}`);

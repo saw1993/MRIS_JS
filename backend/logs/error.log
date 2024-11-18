@@ -557,3 +557,19 @@
 2024-11-11 07:16:29 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
 2024-11-11 07:17:46 [31merror[39m: Error fetching permissions for Role ID 1: rolePermissions.map is not a function
 2024-11-11 07:17:46 [31merror[39m: Error in checkPermission middleware: Error fetching permissions
+2024-11-11 07:56:19 [31merror[39m: Invalid token: jwt expired
+2024-11-12 07:22:02 [31merror[39m: Invalid token: jwt expired
+2024-11-13 18:15:05 [31merror[39m: Invalid token: jwt expired
+2024-11-15 13:35:21 [31merror[39m: Invalid token: jwt expired
+2024-11-16 07:03:11 [31merror[39m: Error finding user by email supun@zyntec.lk: Unknown column 'rep_id' in 'field list'
+2024-11-16 07:06:53 [31merror[39m: Error finding user by email supun@zyntec.lk: Unknown column 'User.rep_id' in 'field list'
+2024-11-16 07:13:13 [31merror[39m: Error in checkPermission middleware: Cannot read properties of undefined (reading 'role_id')
+2024-11-16 07:13:47 [31merror[39m: Error in checkPermission middleware: Cannot read properties of undefined (reading 'role_id')
+2024-11-16 07:14:06 [31merror[39m: Error in checkPermission middleware: Cannot read properties of undefined (reading 'role_id')
+2024-11-16 07:16:26 [31merror[39m: Error fetching user by ID 8: Argument passed to findByPk is invalid: [object Object]
+2024-11-16 07:16:26 [31merror[39m: Error in checkPermission middleware: Argument passed to findByPk is invalid: [object Object]
+2024-11-16 07:18:45 [31merror[39m: Error fetching user by ID 8: UserHierarchy is associated to User using an alias. You've included an alias (user_hierarchy), but it does not match the alias(es) defined in your association (role).
+2024-11-16 07:18:45 [31merror[39m: Error in checkPermission middleware: UserHierarchy is associated to User using an alias. You've included an alias (user_hierarchy), but it does not match the alias(es) defined in your association (role).
+2024-11-16 07:22:51 [31merror[39m: Error fetching user by ID 8: Unknown column 'User.role_id' in 'field list'
+2024-11-16 07:22:51 [31merror[39m: Error in checkPermission middleware: Unknown column 'User.role_id' in 'field list'
+2024-11-16 08:54:34 [31merror[39m: Token verification failed: jwt expired

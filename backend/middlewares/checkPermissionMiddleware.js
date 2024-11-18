@@ -20,19 +20,24 @@ const checkPermission = (permissionID) => {
                 return res.status(404).json({ message: 'User not found' });
             }
 
-           
-            // Check if the required permission exists in any of the roles 
+                    // Check if the required permission exists in any of the roles
             let hasPermission = false;
-            const permissions = await permissionRepository.getPermissionsForRole(user.role_id);
+            const permissions = await permissionRepository.getPermissionsForRole(user.user_hierarchy.role_id);
 
+        hasPermission = permissions.some(permission => {
         
-            hasPermission = permissions.some(permission => permission.permission_id === permissionID);
-
-            if (hasPermission) {
-                next();
-            }else {
-                return res.status(403).json({ message: 'Permission denied' });
+            if (permission.permission_id === permissionID) {
+                logger.info(`Token verified and permission granted for : ${permission.permission_name}`);  // Log the permission name
+                return true;
             }
+            return false;
+        });
+
+        if (hasPermission) {
+            next();
+        } else {
+            return res.status(403).json({ message: 'Permission denied' });
+        }
 
         } catch (error) {
             logger.error(`Error in checkPermission middleware: ${error.message}`);

@@ -6,7 +6,8 @@ dotenv.config();
 const createMainDBConnection = () => {
     return new Sequelize('mris', 'saw1993', '1234', {
         host: 'localhost',
-        dialect: 'mysql'
+        dialect: 'mysql',
+        logging:false,
     });
 };
 
@@ -14,7 +15,8 @@ const createMainDBConnection = () => {
 const createAgencyDBConnection = (agencyDetails) => {
     return new Sequelize(agencyDetails.db_name, agencyDetails.db_user, agencyDetails.db_password, {
         host: agencyDetails.db_host,
-        dialect: 'mysql'
+        dialect: 'mysql',
+        logging:false,
     });
 };
 
